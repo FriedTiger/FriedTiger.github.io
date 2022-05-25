@@ -102,9 +102,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Minjun Kim[김민준]"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "Electrical and Computer Engineering in Seoul National University"
   location         : "Somewhere"
   email            :
   links:
