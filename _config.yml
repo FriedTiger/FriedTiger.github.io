@@ -15,12 +15,12 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+locale                   : "ko-KR"
+title                    : "Minjun's cat"
+title_separator          : "|"
+subtitle                 : "Physics in Semiconductor" # site tagline that appears below site title in masthead
 name                     : "Minjun Kim"
-description              : "An amazing website."
+description              : "An amazing website with my amazing life."
 url                      : "https://friedtiger.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
