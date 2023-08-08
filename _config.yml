@@ -15,8 +15,8 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko-KR"
-title                    : "Minjun's cat"
+locale                   : "en-US"
+title                    : "Minjun's CAT"
 title_separator          : "|"
 subtitle                 : "Physics in Semiconductor" # site tagline that appears below site title in masthead
 name                     : "Minjun Kim"
@@ -105,8 +105,8 @@ author:
   name             : "Minjun Kim[김민준]"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Electrical and Computer Engineering in Seoul National University"
-  location         : "Somewhere"
-  email            :
+  location         : "Seoul | South Korea"
+  email            : "jaehuk1128 @ snu.ac.kr"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
