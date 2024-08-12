@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "Minjun Kim"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/MinjunKim_photo.jpg"
   bio              : "Electrical and Computer Engineering in Seoul National University"
   location         : "Seoul | South Korea"
   email            : "jaehuk1128 @ snu.ac.kr"
