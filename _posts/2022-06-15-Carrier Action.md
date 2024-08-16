@@ -31,7 +31,6 @@ Drift Current의 개념을 배우기 전에 Current의 개념을 배워야한다
 $$
 J(Volume ~Current ~Density)=\frac{Current의 개념}{Volume}=\sum_i\frac{q_i\times v_i}{V}
 $$
-<img src="/images/3. Carrier Action/image-20230829095402323.png" alt="image-20230829095402323"  />
 
 이를 머릿속으로 정성적으로 그림을 그릴 때는 임의의 부피 안에 charge에 대한 v벡터를 그려줄 수 있다.
 
