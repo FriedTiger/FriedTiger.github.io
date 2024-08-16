@@ -199,31 +199,3 @@ $$
 $$
 \epsilon = \frac{1}{q}\triangledown \cdot E
 $$
-맥스웰 방정식에 의하면 다음과 같다. 
-$$
-\triangledown \cdot \epsilon = \frac{\rho}{\epsilon_0}
-$$
-
-
-따라서 이를 (18)과 결합하면 다음과 같다. 
-$$
-\rho = \frac{\epsilon_0}{q}\frac{dE^2}{d^2x}
-$$
-
-
-Diffusion Current의 정확한 정의는 Random Thermal Vibration이다.
-
-온도라는 개념은 항상 정의되기 때문에 Diffusion Current는 Thermal inequality가 있거나 number density inequality가 있는 상황에서 항상 생각해봐야한다. 
-
-즉 Diffusion Current를 Flux의 개념으로 생각할 수 있다. Diffusion은 속도에 대한 개념보다는 농도차에 대한 개념으로 서술해야한다. 
-
-
-
-속도는 어떠한 온도에서 재료마다 다른 값이므로, Diffusion coefficient로 표현이 된다.
-
-따라서 다음으로 표현된다.
-$$
-\sum_i\frac{v_i}{V}=Flux = J_{p\mid diff}=-qD_p\triangledown p
-\\J_{n\mid diff} = qD_n\triangledown n
-$$
-로 표현가능하다.
