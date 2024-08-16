@@ -10,7 +10,7 @@ sidebar_main : false
 
 
 
-<img src="../images/about/author_image.png" alt="author_image" style="zoom:33%;" align = "left" /></br>
+<img src="../images/about/author_image.png" alt="author_image" style="zoom:20%;" align = "left" /></br>
 
 
 
