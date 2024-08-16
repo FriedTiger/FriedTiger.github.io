@@ -182,3 +182,5 @@ Energy Band가 불연속적으로 연결될 이유는 없다.
 
 
 이제 이를 정량적으로 파악해보자. 
+
+E(Total Electron Energy)는 편의상 E(electron potential Energy)를 선으로 그릴 수 있다. $E = E_p + E_k$로 나타낼 수 있다. (점)= (벡터)+(선)
