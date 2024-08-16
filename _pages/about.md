@@ -46,6 +46,14 @@ E-Mail: [jaehuk1128@snu.ac.kr ](mailto:jaehuk1128@snu.ac.kr)
 
 
 
+## Reserach interests
+
+- Nanophotonios
+
+- Device physics
+
+
+
 ## Experience
 
 ('17-'19) Republic of Korean Army
@@ -55,6 +63,8 @@ E-Mail: [jaehuk1128@snu.ac.kr ](mailto:jaehuk1128@snu.ac.kr)
 ## Publication
 
 1. "[Top-Emitting Quantum Dot Light-Emitting Diodes: Theory, Optimization, and Application](https://doi.org/10.1002/smtd.202300266)," T. Lee, M. Lee, H. Seo, **M. Kim**, B. Chun, J. Kwak, ***Small Methods\* 8**(2), 2300266 (Feb. 20, 2024). **[Review]**
+
+
 
 ## Hobby
 
