@@ -413,6 +413,10 @@ $$
 <x> = \frac{\int^{\infty}_{0} x\triangle n_p(x)dx}{\int ^{\infty}_{0} \triangle n_p(x)dx} = L_N
 $$
 
+
+
+
+
 ---
 
 #### Qusai-Fermi Level
