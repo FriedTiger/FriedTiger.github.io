@@ -187,15 +187,3 @@ E(Total Electron Energy)는 편의상 E(electron potential Energy)를 선으로 
 $$
 E_{{potential E}\mid electron} = - q\cdot V{(potential ~E)}
 $$
-따라서, V는 E를 뒤집은 형태이다. 
-
-맥스웰 방정식에 의하면 다음과 같다. 
-$$
-\epsilon = -\nabla \cdot V
-$$
-
-
-이를 (16)과 결합하면 다음과 같다.
-$$
-\epsilon = \frac{1}{q}\nabla \cdot E
-$$
