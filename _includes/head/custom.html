@@ -2,5 +2,7 @@
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
-{% include mathjax-support.html %}
+{% if page.use_math %}
+    {% include mathjax-support.html %}
+{% endif %}
 <!-- end custom head snippets -->

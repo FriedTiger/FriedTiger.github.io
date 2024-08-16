@@ -8,11 +8,11 @@ tag : crystal
 toc : true
 toc_sticky : true
 author_profile : false
+use_math : true
+---
 .archive__item-title {
     margin-top: 0.5rem !important;
     margin-bottom: 0.5rem !important;
----
-
 ## 1.Crystal Structure
 
 <img src="/images/2024-08-06-1-semiconductor/image-20221020173830037.png" alt="image-20221020173830037" style="zoom:50%;" />(1)
@@ -104,7 +104,7 @@ $$
 
 #### Lattice(Bravais lattice)를 구성하는 법
 
-<img src="C:\Users\minjun\AppData\Roaming\Typora\typora-user-images\image-20221020181320440.png" alt="image-20221020181320440" style="zoom:80%;" />
+<img src="/images/2024-08-06-1-semiconductor/image-20221020181320440.png" alt="image-20221020181320440" style="zoom:80%;" />
 
 #### Reciprocal Lattice를 구성하는 법
 
@@ -112,7 +112,7 @@ Crystalline은 원자의 배열이 discrete한 값을 갖는다. 따라서, 양�
 $$
 e^{iKR}=1
 $$
-<img src="C:\Users\minjun\AppData\Roaming\Typora\typora-user-images\image-20221020181049820.png" alt="image-20221020181049820" style="zoom:80%;" />
+<img src="/images/2024-08-06-1-semiconductor/image-20221020181049820.png" alt="image-20221020181049820" style="zoom:80%;" />
 
 다음의 성질을 갖는다.
 
