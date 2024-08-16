@@ -10,10 +10,6 @@ toc_sticky : true
 author_profile : false
 use_math : true
 ---
-.archive__item-title {
-    margin-top: 0.5rem !important;
-    margin-bottom: 0.5rem !important;
-## 1.Crystal Structure
 
 <img src="/images/2024-08-06-1-semiconductor/image-20221020173830037.png" alt="image-20221020173830037" style="zoom:50%;" />(1)
 
