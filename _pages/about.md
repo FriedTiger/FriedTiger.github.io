@@ -11,7 +11,19 @@ toc_sticky : true
 ## Minjun Kim
 
 <img src="../images/about/author_image.png" alt="author_image" style="zoom:20%;" align = "left"/>  
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
 Ph.D. Candidate  
 
 Department of Electrical and Computer Engineering, Inter-university Semiconductor Research Center  
