@@ -10,7 +10,9 @@ sidebar_main : false
 
 
 
-<img src="../images/about/author_image.png" alt="author_image" style="zoom:33%;" align = "left" />
+<img src="../images/about/author_image.png" alt="author_image" style="zoom:33%;" align = "left" /></br>
+
+
 
 Ph.D. Candidate
 
