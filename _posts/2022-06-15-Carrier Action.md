@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "3)Carrier Action"
+title: "4)Carrier Action"
 typora-root-url: ../
 categories : "Fundamental-of-Semicondutor"
 tag : carrier

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "2-2)Concept of Carrier"
+title: "3)Concept of Carrier"
 typora-root-url: ../
 categories : "Fundamental-of-Semicondutor"
 tag : carrier
