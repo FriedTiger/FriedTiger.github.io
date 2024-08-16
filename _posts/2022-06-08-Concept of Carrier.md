@@ -9,7 +9,6 @@ toc : true
 toc_sticky : true
 author_profile : false
 ---
-
 ## Fundamental of semiconductor
 
   가장 큰 목표는 Carrier의 농도와 분포를 아는 것이다! 

@@ -9,7 +9,6 @@ toc : true
 toc_sticky : true
 author_profile : false
 ---
-
 ## Fundamental of semiconductor
 
 수학적으로 정의되는 Carrier Action의 대한 방정식은 흔히 Continuity Equation으로 구성된다.

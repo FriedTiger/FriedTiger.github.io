@@ -9,7 +9,6 @@ toc : true
 toc_sticky : true
 author_profile : false
 ---
-
 ## Fundamental of semiconductor
 
 <img src="/images/5. pn Junction Diodes/image-20221102200301524.png" alt="image-20221102200301524" style="zoom:80%;" />
