@@ -40,6 +40,7 @@ E-Mail: [jaehuk1128@snu.ac.kr ](mailto:jaehuk1128@snu.ac.kr)
 
 ('19-'21) Korea University Buddy Assistant
 
+('21-'24) Korea University Swimming Club
 
 
 ## Publication
