@@ -420,7 +420,7 @@ $$
 
   ---
 
-  #### Qusai-Fermi Level
+#### Qusai-Fermi Level
 
   $$
   n \equiv n_i e^\frac{F_N - E_i}{kT}
