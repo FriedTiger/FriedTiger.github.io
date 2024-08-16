@@ -9,7 +9,7 @@ toc : true
 toc_sticky : true
 author_profile : false
 ---
-## Modeling of Carrier
+## 2. Modeling of Carrier
 
 * Carrier는 WavePacket이다.
 * Modeling을 한다는 것은 현상을 간단한 형태로 나타내는 것이다.
