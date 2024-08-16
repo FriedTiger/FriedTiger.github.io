@@ -12,7 +12,7 @@ author_profile : false
 
 ## 1.Crystal Structure
 
-<img src="images/2024-08-06-1-semiconductor/image-20221020173830037.png" alt="image-20221020173830037" style="zoom:50%;" />(1)
+<img src="/images/2024-08-06-1-semiconductor/image-20221020173830037.png" alt="image-20221020173830037" style="zoom:50%;" />(1)
 
 ![image-20221020173846766](/images/2024-08-06-1-semiconductor/image-20221020173846766.png)(2)
 
@@ -52,7 +52,7 @@ author_profile : false
 
 Cubic	FCC	BCC
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Simple_cubic_crystal_lattice.svg/1024px-Simple_cubic_crystal_lattice.svg.png" alt="File:Simple cubic crystal lattice.svg - Wikimedia Commons" style="zoom:30%;" /><img src="images/2024-08-06-1-semiconductor/image-20221020175244603.png" alt="image-20221020175244603" style="zoom:50%;" /><img src="images/2024-08-06-1-semiconductor/\image-20221020175318349.png" alt="image-20221020175318349" style="zoom:50%;" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Simple_cubic_crystal_lattice.svg/1024px-Simple_cubic_crystal_lattice.svg.png" alt="File:Simple cubic crystal lattice.svg - Wikimedia Commons" style="zoom:30%;" /><img src="/images/2024-08-06-1-semiconductor/image-20221020175244603.png" alt="image-20221020175244603" style="zoom:50%;" /><img src="/images/2024-08-06-1-semiconductor/\image-20221020175318349.png" alt="image-20221020175318349" style="zoom:50%;" />
 
 식은 다음과 같다.
 
@@ -166,4 +166,4 @@ $$
 
 ##### --> First Brillouin Zone
 
-![image-20221020182440292](images/2024-08-06-1-semiconductor/\image-20221020182440292.png)
+<img src="/images/2024-08-06-1-semiconductor/\image-20221020182440292.png" alt="image-20221020182440292" />
