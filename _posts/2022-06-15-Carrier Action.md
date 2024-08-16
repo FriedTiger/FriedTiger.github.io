@@ -103,4 +103,125 @@ Mobility는 전기장과 속도에 대한 비례상수이다. Mobility는 어떻
 mobility의 입장에서 충돌하기 까지의 평균 시간을 mean free time이라 한다. 
 
 이는 다음으로서 표현할 수 있다. 
+$$
+(평균 충돌까지의 걸리는 시간확률)=\frac{dt}{<t>}
+$$
+
+$$
+mobility = \frac{<t>}{m^*}
+$$
+
+Ionized impurity에 의해서도 생각해보자, 
+
+Ionized impurity에 의한 상황은 Scattering이다. 
+
+Scattering은 에너지 손실 없이 전자의 움직임(a general freedom movement of electron)이 ionized impurity에 의해 randomized direction을 갖는 것을 의미한다. 
+
+전자의 속도는 thermal velocity이고 이는 온도가 올라갈수록 전자의 속도가 올라간다. 
+
+따라서 정리하면 Ionized impurity가 mobilty에 영향을 미치는 변수는 다음과 같다.
+
+1. 온도가 높을수록 scattering이 더 잘되어 ionized impurity 영향 커짐.
+2. impurity 농도가 높을수록 ionized impurity 영향 커짐.
+
+Phonon(Lattice Vibration)에 대해서도 생각해보자. 
+
+온도가 커질수록 Lattice Vibration 영향 커짐. 
+
+
+
+이를 모두 종합해 보면 다음과 같다.
+
+mobility의 역수를 저항 이라고 생각할 수 있고 저항의 직렬 연결로 생각할 수 있다. 이를 정량적으로 나태보자.
+$$
+\frac{1}{<t_{total}>} = \frac{1}{<t_{ionized ~impurity}>}+\frac{1}{<t_{phonon}>}
+$$
+온도에 대해 더 생각해 볼 수 있다.
+
+온도가 높아지면 두 측면에 대해서 모두 mobility가 안좋아진다. 
+
+그러나 온도가 많이 높을 때는 phonon에 대한 영향력이 더 크다. 
+
+
+
+마지막으로 Volume drfit current denstiy는 conductivity로 나타낼 수 있다. 
+$$
+(7에 ~따르면)~J_{p\mid drift}=qp\mu_pE
+$$
+
+$$
+(8에 ~따르면)~J_{n\mid drift}=qp\mu_nE
+$$
+
+$$
+(13과~14를~합치면)= J_{drift}=qp\mu_pE+qp\mu_nE=\sigma E
+$$
+
+따라서 전류의 mechanism이 drift라면,   Conductivity = (charge)X(number density)X(mobility)로 생각할 수 있다.
+
+
+
+---
+
+#### Diffusion Current
+
+Diffusion Current를 배우기 전에 Energy Band의 Banding에 대해서 살펴보아야한다.
+
+정성적으로 같은 물질에 대해먼저 생각해보자. 
+
+전기장이 한쪽에 가해져 있는 상황을 생각해보자.
+
+ 이는 슈레딩거 방정식의 포텐셜 에너지에 에너지 적으로 constant E가 up-shift(평행이동) 되어있다고 생각할 수 있다. 
+
+따라서, -의 전기장에 대한 에너지를 받는 곳 --> depletion region에서 시작하여
+
+CB와 VB 모두 같은 에너지 만큼 upshift 되어있다.
+
+Energy Band가 불연속적으로 연결될 이유는 없다. 
+
+따라서, Band Bending이 일어난다. 
+
+
+
+이제 이를 정량적으로 파악해보자. 
+
+E(Total Electron Energy)는 편의상 E(electron potential Energy)를 선으로 그릴 수 있다. E = E_p + E_k로 나타낼 수 있다. (점)= (벡터)+(선)
+$$
+E_{{potential E}\mid electron} = - q\cdot V{(potential ~E)}
+$$
+따라서, V는 E를 뒤집은 형태이다. 
+
+맥스웰 방정식에 의하면 다음과 같다. 
+$$
+\epsilon = -\triangledown \cdot V
+$$
+
+
+이를 (16)과 결합하면 다음과 같다.
+$$
+\epsilon = \frac{1}{q}\triangledown \cdot E
+$$
+맥스웰 방정식에 의하면 다음과 같다. 
+$$
+\triangledown \cdot \epsilon = \frac{\rho}{\epsilon_0}
+$$
+
+
+따라서 이를 (18)과 결합하면 다음과 같다. 
+$$
+\rho = \frac{\epsilon_0}{q}\frac{dE^2}{d^2x}
+$$
+
+
+Diffusion Current의 정확한 정의는 Random Thermal Vibration이다.
+
+온도라는 개념은 항상 정의되기 때문에 Diffusion Current는 Thermal inequality가 있거나 number density inequality가 있는 상황에서 항상 생각해봐야한다. 
+
+즉 Diffusion Current를 Flux의 개념으로 생각할 수 있다. Diffusion은 속도에 대한 개념보다는 농도차에 대한 개념으로 서술해야한다. 
+
+
+
+속도는 어떠한 온도에서 재료마다 다른 값이므로, Diffusion coefficient로 표현이 된다.
+
+따라서 다음으로 표현된다.
 
