@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "1. Crystal Structure"
+title: "Crystal Structures"
 typora-root-url: ../
 categories : "Fundamental-of-Semicondutor"
 tag : crystal
@@ -9,6 +9,7 @@ toc : true
 toc_sticky : true
 author_profile : false
 ---
+## 2. Fundamental of semiconductor - Crystal Structure
 
 <img src="/images/2024-08-06-1-semiconductor/image-20221020173830037.png" alt="image-20221020173830037" style="zoom:50%;" />(1)
 
