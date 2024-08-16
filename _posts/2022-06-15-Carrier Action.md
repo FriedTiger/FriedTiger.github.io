@@ -191,11 +191,11 @@ $$
 
 맥스웰 방정식에 의하면 다음과 같다. 
 $$
-\epsilon = -\triangledown \cdot V
+\epsilon = -\nabla \cdot V
 $$
 
 
 이를 (16)과 결합하면 다음과 같다.
 $$
-\epsilon = \frac{1}{q}\triangledown \cdot E
+\epsilon = \frac{1}{q}\nabla \cdot E
 $$
