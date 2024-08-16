@@ -188,24 +188,3 @@ $$
 E_{{potential E}\mid electron} = - q\cdot V{(potential ~E)}
 $$
 따라서, V는 E를 뒤집은 형태이다. 
-
-맥스웰 방정식에 의하면 다음과 같다. 
-$$
-\epsilon = -\triangledown \cdot V
-$$
-
-
-이를 (16)과 결합하면 다음과 같다.
-$$
-\epsilon = \frac{1}{q}\triangledown \cdot E
-$$
-맥스웰 방정식에 의하면 다음과 같다. 
-$$
-\triangledown \cdot \epsilon = \frac{\rho}{\epsilon_0}
-$$
-
-
-따라서 이를 (18)과 결합하면 다음과 같다. 
-$$
-\rho = \frac{\epsilon_0}{q}\frac{dE^2}{d^2x}
-$$
