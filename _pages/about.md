@@ -2,6 +2,8 @@
 title : "About"
 layout : single
 permalink : /about/
-author_profile : true
-sidebar_main : true
+author_profile : false
+sidebar_main : false
 ---
+
+Hello
