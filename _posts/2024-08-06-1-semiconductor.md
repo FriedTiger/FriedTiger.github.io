@@ -8,6 +8,9 @@ tag : crystal
 toc : true
 toc_sticky : true
 author_profile : false
+.archive__item-title {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
 ---
 
 ## 1.Crystal Structure
