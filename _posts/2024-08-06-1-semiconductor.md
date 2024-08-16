@@ -2,7 +2,7 @@
 layout: single
 title:  "1. Crystal Structure"
 typora-root-url: ../
-categories : "Fundamental of Semicondutor"
+categories : "Fundamental-of-Semicondutor"
 tag : crystal
 #tag : [me, me2, me3]
 toc : true
