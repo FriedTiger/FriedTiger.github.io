@@ -158,3 +158,24 @@ $$
 $$
 
 따라서 전류의 mechanism이 drift라면,   Conductivity = (charge)X(number density)X(mobility)로 생각할 수 있다.
+
+---
+
+#### Diffusion Current
+
+Diffusion Current를 배우기 전에 Energy Band의 Banding에 대해서 살펴보아야한다.
+
+정성적으로 같은 물질에 대해먼저 생각해보자. 
+
+전기장이 한쪽에 가해져 있는 상황을 생각해보자.
+
+ 이는 슈레딩거 방정식의 포텐셜 에너지에 에너지 적으로 constant E가 up-shift(평행이동) 되어있다고 생각할 수 있다. 
+
+따라서, -의 전기장에 대한 에너지를 받는 곳 --> depletion region에서 시작하여
+
+CB와 VB 모두 같은 에너지 만큼 upshift 되어있다.
+
+Energy Band가 불연속적으로 연결될 이유는 없다. 
+
+따라서, Band Bending이 일어난다. 
+
