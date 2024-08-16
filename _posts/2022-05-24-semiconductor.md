@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "1. Crystal Structures"
+title: "1)Crystal Structures"
 typora-root-url: ../
 categories : "Fundamental-of-Semicondutor"
 tag : crystal

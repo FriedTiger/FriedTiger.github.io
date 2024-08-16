@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "2. Modeling of carrier"
+title: "2)Modeling of carrier"
 typora-root-url: ../
 categories : "Fundamental-of-Semicondutor"
 tag : carrier
