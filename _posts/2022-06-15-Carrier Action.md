@@ -408,65 +408,66 @@ Generation이 없는 상황에서 Minority Carrier는 얼만큼 확산할까?
 $$
 L_N = \sqrt{D_N \tau_n}
 $$
-로 정의된다. 이는 다음과 같은 식에서 산출되었다.
-$$
-<x> = \frac{\int^{\infty}_{0} x\triangle n_p(x)dx}{\int ^{\infty}_{0} \triangle n_p(x)dx} = L_N
-$$
+
+* 로 정의된다. 이는 다음과 같은 식에서 산출되었다.
+
+  
+  $$
+  \langle x \rangle = \frac{\int^{\infty}_{0} x\triangle n_p(x)dx}{\int ^{\infty}_{0} \triangle n_p(x)dx} = L_N
+  $$
+
+  
+
+  ---
+
+  #### Qusai-Fermi Level
+
+  $$
+  n \equiv n_i e^\frac{F_N - E_i}{kT}
+  \\
+  p \equiv n_i e^{-\frac{F_p - E_i}{kT}}
+  $$
+
+  Low injection 상황에서 Majority Carrier의 변화는 적고, Minority Carrier 변화는 많다.
+
+  따라서, **Majority Carrier의 Qusai-Fermi Level은 거의 그대로고, Minority Carrier의 Qusai-Fermi Level은 크게 변한다.**
+  $$
+  \begin{align}
+  \\
+  1.~ n&= n_i exp(F_N - E_i)/kT
+  \\
+  p&=n_iexp(-)(F_P - E_i)/kT
+  \\
+  \therefore np&=n_i^2exp(F_N-F_P)/kT 
+  \\
+  &\text{qusai-Fermi level 변화에 따라} ~np\text{값이} ~n_i^2\text{보다 커지거나 작아진다.}
+  \\
+  \end{align}
+  $$
 
 
+  Qusai-Fermi Level 식을 통해 새롭게 Volume Current Density를 나타내려한다. 
+  $$
+  J_p = q \mu_p p\epsilon - qD_p\triangledown p
+  $$
+
+  $$
+  \triangledown p =(\frac{n_i}{kT})e^{\frac{E_i-F_p}{kT}}{(\triangledown E_i-\triangledown F_p)}=(\frac{qp}{kT})\epsilon-(\frac{p}{kT})\triangledown F_p
+  $$
+
+  이를 위에 대입하면 다음과 같다. 
+  $$
+  J_p = q\mu_pp\epsilon - qD_p[(\frac{qp}{kT})\epsilon -(\frac{p}{kT})\triangledown F_p]
+  \\
+  J_p = \mu_p p \triangledown F_p
+  $$
 
 
+  이를 전자와 정공에 대해 정리하면 다음과 같다.
+  $$
+  J_p = \mu_p p \triangledown F_p
+  \\
+  J_N = \mu_n n \triangledown F_N
+  $$
 
----
-
-#### Qusai-Fermi Level
-
-$$
-n \equiv n_i e^\frac{F_N - E_i}{kT}
-\\
-p \equiv n_i e^{-\frac{F_p - E_i}{kT}}
-$$
-
-Low injection 상황에서 Majority Carrier의 변화는 적고, Minority Carrier 변화는 많다.
-
-따라서, **Majority Carrier의 Qusai-Fermi Level은 거의 그대로고, Minority Carrier의 Qusai-Fermi Level은 크게 변한다.**
-$$
-\begin{align}
-\\
-1.~ n&= n_i exp(F_N - E_i)(/kT)
-)\\
-p&=n_iexp(-)(F_P - E_i)(/kT)
-\\
-\therefore np&=n_i^2exp(F_N-F_P)(/kT) 
-\\
-&\text{qusai-Fermi level 변화에 따라} ~np\text{값이} ~n_i^2\text{보다 커지거나 작아진다.}
-\\
-\end{align}
-$$
-
-
-Qusai-Fermi Level 식을 통해 새롭게 Volume Current Density를 나타내려한다. 
-$$
-J_p = q \mu_p p\epsilon - qD_p\triangledown p
-$$
-
-$$
-\triangledown p =(\frac{n_i}{kT})e^{\frac{E_i-F_p}{kT}}{(\triangledown E_i-\triangledown F_p)}=(\frac{qp}{kT})\epsilon-(\frac{p}{kT})\triangledown F_p
-$$
-
-이를 위에 대입하면 다음과 같다. 
-$$
-J_p = q\mu_pp\epsilon - qD_p[(\frac{qp}{kT})\epsilon -(\frac{p}{kT})\triangledown F_p]
-\\
-J_p = \mu_p p \triangledown F_p
-$$
-
-
-이를 전자와 정공에 대해 정리하면 다음과 같다.
-$$
-J_p = \mu_p p \triangledown F_p
-\\
-J_N = \mu_n n \triangledown F_N
-$$
-
-* 여기서 주의해야할 점은 Volume Current Density 식 안에 농도와 Quasi-Fermi Level 변화가 같이 있다는 것이다. 즉, 농도가 Qusai-Fermi Level 변화의 Scale 보다 크므로 이에 주의해야한다.
+  * 여기서 주의해야할 점은 Volume Current Density 식 안에 농도와 Quasi-Fermi Level 변화가 같이 있다는 것이다. 즉, 농도가 Qusai-Fermi Level 변화의 Scale 보다 크므로 이에 주의해야한다.
