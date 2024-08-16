@@ -3,7 +3,7 @@ layout: single
 title: "5)PN Junction Diodes"
 typora-root-url: ../
 categories : "Fundamental-of-Semicondutor"
-tag : carrier
+tag : diode
 #tag : [me, me2, me3]
 toc : true
 toc_sticky : true
