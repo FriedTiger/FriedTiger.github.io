@@ -339,7 +339,7 @@ $$
 $$
 Minority Carrier는 Majoirty Carrier와 하려고 할 것이다. Indirect 상황이므로 채워진 R-G Center가 N_T와 같다고 하면,
 
-Minority Carrier는 -N_T에 비례하고, -홀의 농도에 비례할 것이다.
+Minority Carrier는 -$N_T$에 비례하고, -홀의 농도에 비례할 것이다.
 
 Minority Carrier Generation 변화는 다음과 같이 생각할 수 있다.
 $$
@@ -371,3 +371,4 @@ $$
 \\
 \frac{\delta p}{\delta t}=\frac{\delta p}{\delta t}\mid _{drift}+\frac{\delta p }{\delta t}\mid_{diff}+\frac{\delta p }{\delta t}\mid_{thermal~R-G}+\frac{\delta p}{\delta t}\mid_{other~processes~(light,~ etc.)}
 $$
+
