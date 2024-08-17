@@ -43,7 +43,17 @@ $$
 $$
 이를 time-dependent Schrodinger Equation에 대입하면 다음과 같다.
 $$
-\underline{\left\{{\frac{1}{R}\frac{d}{dr}(r^2\frac{dR}{dr})-\frac{2mr^2}{\hbar^2}[V(r)-E]}\right\}}+\underline{\frac{1}{Y}\left\{{\frac{1}{\sin\theta}\frac{\delta}{\delta \theta}(\sin \theta\frac{\delta Y}{\delta \theta})+\frac{1}{sin^2 \theta}\frac{\delta ^2 Y}{\delta \phi^2}}\right\}} =0
+\underline{\left\{\frac{1}{R}\frac{d}{dr}\left(r^2\frac{dR}{dr}\right) - \frac{2mr^2}{\hbar^2}\left[V(r) - E\right]\right\}} + \underline{\frac{1}{Y}\left\{\frac{1}{\sin\theta}\frac{\partial}{\partial \theta}\left(\sin \theta \frac{\partial Y}{\partial \theta}\right) + \frac{1}{\sin^2 \theta}\frac{\partial^2 Y}{\partial \phi^2}\right\}} = 0
+$$
+밑줄 친 부분은 서로 상수여야만 변수 관점에서 말이 된다. 
+
+따라서, 다음과 같이 표기할 수 있다.
+$$
+\frac{1}{R}\frac{d}{dr}(r^2 \frac{dR}{dr}) -\frac{2mr^2}{\hbar^2}[V(r)-E]=l(l+1)
+\\
+\frac{1}{Y} \{\frac{1}{sin\theta}\frac{\delta}{\delta \theta}(\sin \theta \frac{\delta Y}{\delta \theta})+\frac{1}{sin^2 \theta}\frac{\delta ^2 Y}{\delta \phi ^2} = -l(l+1)
 $$
 
-#### 
+---
+
+#### The Angular Equation
