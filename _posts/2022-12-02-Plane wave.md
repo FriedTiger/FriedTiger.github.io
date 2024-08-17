@@ -316,3 +316,98 @@ $$
 ---
 
 #### Boundary Condition
+
+$$
+\begin{align}
+& \text{homogeneous한 매질에서(source term이 0)}
+\\
+& \triangledown \cdot \vec{\bold{D}} = 0 &&--> &&& \epsilon_1 \vec{\bold{E_1}^{\perp}} = \epsilon_2 \vec{\bold{E_2}^{\perp}}
+\\
+& \triangledown \times \vec{\bold{E}} = i \omega \vec{\bold{B}} &&--> &&& \vec{\bold{E_2}^{\parallel}}= \vec{\bold{E_1}^{\parallel}} &&&&\text{중요}
+\\
+& \triangledown \cdot \vec{\bold{B}} = 0 &&--> &&& \vec{\bold{B_1}^{\perp}} =\vec{\bold{B_2}^{\perp}}
+\\
+& \triangledown \times \vec{\bold{H}} = - i \omega \vec{\bold{D}} &&--> &&& \vec{\bold{H_1}^{\parallel}} = \vec{\bold{H_2}^{\parallel}} &&&& \text{중요}
+\end{align}
+$$
+
+<img src="/images/2022-12-02-Plane wave/image-20240102115723076.png" alt="image-20240102115723076" style="zoom:80%;" />
+$$
+\begin{align}
+&\text{Boundary에서 Electric boundary condition은 다음과 같다.}
+\\
+&1) \vec{E} = \hat{x} E_0 e^{ikz}
+\\
+&2) \vec{E} = \hat{x}  ~rE_0 e^{-ikz}
+\\
+&3) \vec{E} = \hat{x} ~tE_0 e^{iKz}
+\\
+&\therefore 1+r = t ~\text(z = 0일 때)
+\\
+&\text{Boundary에서 Magentic boundary condition은 다음과 같다.}
+\\
+&1) \vec{H} = \frac{\triangledown \times \vec{E}}{i \omega \mu_1} =\frac{ik \hat{z}\times \vec{E}}{i \omega \mu_1} = \hat{y} \frac{kE_0 e^{ikz}}{\omega \mu_1}
+\\
+&2) \vec{H} = \frac{\triangledown \times \vec{E}}{i \omega \mu_1} =\hat{y} ~r \frac{-kE_0 e^{-ikz}}{\omega \mu_1}
+\\
+&3) \vec{H} = \frac{\triangledown \times \vec{E}}{i \omega \mu_2} =\hat{y} ~t \frac{KE_0 e^{iKz}}{\omega \mu_2}
+\\
+&\therefore \frac{k}{\mu _1} - \frac{rk}{\mu _1} = \frac{tK}{\mu_2} ~\text{(z = 0일 때)}
+\\
+&\therefore 1 - r = \frac{\sqrt{\epsilon _ 2 \mu _ 1}}{\sqrt{\epsilon _ 1 \mu _2}}t
+\\
+&\text{이를 연립하면 다음과 같다.}
+\\
+&t = \frac{2 \sqrt{\frac{\epsilon _1}{\mu_1}}}{\sqrt{\frac{\epsilon _1}{\mu _!}}+\sqrt{\frac{\epsilon _2}{\epsilon _2}}}
+\approx \frac{2 n_1}{n_1 + n_2}
+\\
+&r = t-1 = \frac{\sqrt{\frac{\epsilon _1}{\mu_1}}-\sqrt{\frac{\epsilon _2}{\mu _2}}}{\sqrt{\frac{\epsilon _1}{\mu _!}}+\sqrt{\frac{\epsilon _2}{\epsilon _2}}} \approx \frac{n_1 - n_2}{n_1 + n_2}
+\\
+&\langle \vec{S}(r,t) \rangle = \hat{k} \frac{1}{2} \frac{\sqrt{\epsilon }}{\sqrt{\mu}}Real(\vec{\bold{E}}(r) \cdot \vec{\bold{E}}(r)^*) \text{이므로 이를 t, r에 나타내면 다음과 같다.}
+\\
+&R = \frac{I_{refl}}{I_{inci}} = \vert r\vert ^2 = (\frac{n_1 - n_2}{n_1 + n_2})^2
+\\
+&T = \frac{I_{trans}}{I_{inci}} = \frac{\sqrt{\frac{\epsilon _2}{\mu _2}}}{\sqrt{\frac{\epsilon _1}{\mu _1}}}\vert t\vert ^2 = \frac{\sqrt{\epsilon _2}}{\sqrt{\epsilon _1}}\vert t \vert ^2 = \frac{n_2}{n_1}\vert t \vert ^2 = \frac{4n_1 n_2}{(n_1 + n_2)^2}
+\end{align}
+$$
+
+---
+
+#### Boundary condition, R, T at oblique incidence
+
+<img src="/images/2022-12-02-Plane wave/image-20240102140438397.png" alt="image-20240102140438397" style="zoom:80%;" />
+$$
+\begin{align}
+&\text{Boundary에서 Electric boundary condition은 다음과 같다.}
+\\
+&1) \vec{E}_{\parallel} = (\vec{E}_0 e^{ikr})_{\parallel}
+\\
+&2) \vec{E}_{\parallel} = (~r\vec{E}_0 e^{-iKr})_{\parallel}
+\\
+&3) \vec{E}_{\parallel} = (~t\vec{E}_0 e^{iqr})_{\parallel}
+\\
+&\therefore 1+r = t ~\text(z = 0일 때) \text{이므로}~~ k_x = K_x = q_x ~ \& ~ k_y = K_y = q_y \text{를 반드시 만족시킨다.}
+\\
+&\text{물리적 의미 : }
+\\
+&1) \frac{k_y}{k_x} = \frac{K_y}{K_x} = \frac{q_y}{q_x} : \text{전자기파의 xy plane에 대한 정사영이 한 직선이다. 즉, incident of plane}
+\\
+&2) k sin\theta _i = K sin\theta _r = q sin\theta _t , \vec{k} \cdot \vec{k} = \omega ^2 \epsilon \mu\text{이므로}
+\\
+& n_1 sin\theta _i = n_1 sin\theta _r = n_2 sin\theta _t \text{이다. : Snell's Law}
+
+\end{align}
+$$
+
+#### 정리
+
+1. incident of plane : $k_x = K_x = q_x$ 와 $k_y = K_y = q_y$ 는 평행이동 symmetry에 대해서 성립하는 운동량 보존 값이다.
+2. $1 + r = t , R^2, T^2$와 같이 에너지와 관련된 것들은 $(\vec{E}_1)_{\parallel} = (\vec{E}_2)_{\parallel}$와 같은 Boundary condition에서 성립하는 에너지 보존 법칙이다.
+
+굴절률은 다음과 같이 Potential 느낌으로 해석할 수 있다.
+
+<img src="/images/2022-12-02-Plane wave/image-20230626080904858.png" alt="image-20230626080904858" />
+
+---
+
+#### Plane of Incidence
