@@ -141,13 +141,13 @@ $$
 \frac{d^2 u}{d \rho ^2} = [1-\frac{\rho_0}{\rho}+\frac{l(l+1)}{\rho ^2}]u
 $$
 
-1) $$
+1. $$
    \rho \rightarrow \infty \text{일 때}
    \\
    u(\rho) \approx A e^{-p}
    $$
 
-2) $$
+2. $$
    \rho \rightarrow 0 \text{일 때}
    \\
    u(\rho) \approx C\rho ^{l+1}
@@ -189,14 +189,13 @@ $$
 $$
 
 $$
-l은~N+l에서 ~0\sim n-1의 ~degeneracy를 ~갖는다.
+l\text{은~}N+l\text{에서} ~0\sim n-1\text{의 ~degeneracy를 ~갖는다.}
 \\
-m은 ~l에~ 대해서 2l+1의 ~degeneracy를~갖는다.
-\\따라서,~n에~대하여 ~ 
-d(n) = ~ \sum^{n-1}_{l=0} (2l+1) = n^2 이다.
+\text{m은} ~l\text{에}~ \text{대해서} 2l+1\text{의 ~degeneracy를~갖는다.}
+\\
+\text{따라서,~n에~대하여 ~} 
+d(n) = ~ \sum^{n-1}_{l=0} (2l+1) = n^2 \text{이다.}
 $$
-
----
 
 ---
 
@@ -214,7 +213,7 @@ $$
 $$
 각 운동량에 대해 언제나 성립한다.
 
-<img src="/images/figure/KakaoTalk_20221213_203743407.jpg" alt="KakaoTalk_20221213_203743407" style="zoom:50%;" />
+<img src="/images/2023-01-09-Quantum Mechanics in Three Dimensions/KakaoTalk_20221213_203743407.jpg" alt="KakaoTalk_20221213_203743407" style="zoom:50%;" />
 
 L^2 에 대해서는 다음이 성립한다.
 $$
@@ -257,7 +256,7 @@ $$
 
 L^2에 의해 사다리가 결정된다.
 
-<img src="/images/figure/KakaoTalk_20221213_222349561.png" alt="KakaoTalk_20221213_222349561" style="zoom:50%;" />
+<img src="/images/2023-01-09-Quantum Mechanics in Three Dimensions/KakaoTalk_20221213_222349561.png" alt="KakaoTalk_20221213_222349561" style="zoom:50%;" />
 
 #### Eigenfunctions
 
@@ -280,7 +279,7 @@ $$
 
 #### Spin
 
-** 저자 왈"양자역학이  헷갈릴 때는 spin chapter로 와서 다시 읽어보아라 chapter 4.4"
+**저자 왈"양자역학이  헷갈릴 때는 spin chapter로 와서 다시 읽어보아라 chapter 4.4**
 
 위의 정리를 통해
 $$
@@ -398,7 +397,7 @@ $$
 $$
 이름 다음과 같이 두 spin composite state에 대해서 L ^2(S^2)과 L_z(m)에 대한 그림으로 나타낼 수 있다.
 
-<img src="/images/figure/KakaoTalk_20221218_090434187.jpg" alt="KakaoTalk_20221218_090434187" style="zoom:50%;" />
+<img src="/images/2023-01-09-Quantum Mechanics in Three Dimensions/KakaoTalk_20221218_090434187.jpg" alt="KakaoTalk_20221218_090434187" style="zoom:50%;" />
 
 따라서, 이전과 마찬가지로 Lowering operator 에 대해 생각해 볼 수 있다.
 $$
@@ -427,9 +426,9 @@ $$
 $$
 \text{1. total spin에 대한 이름표는 s이고 이에 대한 m값은 s, s-1,} \cdot\cdot\cdot, \text{-s를 갖는다.}
 \\
-\text{2.  total spin s에 대해} ~S^2\mid s m \rangle = \hbar^2 s(s+1) \mid s m \rangle을 만족시키면 된다.
+\text{2.  total spin s에 대해} ~S^2\mid s m \rangle = \hbar^2 s(s+1) \mid s m \rangle\text{을 만족시키면 된다.}
 \\
-증명방법 : S^2  \mid0~0\rangle = [(S^{(1)})^2 + (S^{(2)})^2 +2 S^{(1)} S^{(2)} ] \mid 0~0 \rangle = \hbar^2 0(0+1) \mid 0~0 \rangle
+\text{증명방법} : S^2  \mid0~0\rangle = [(S^{(1)})^2 + (S^{(2)})^2 +2 S^{(1)} S^{(2)} ] \mid 0~0 \rangle = \hbar^2 0(0+1) \mid 0~0 \rangle
 $$
 즉 다음의 결론을 얻을 수 있다. 
 $$
@@ -461,7 +460,7 @@ $$
 \text{이 때} C^{j_1~j_2~j}_{m_1 m_2 m}=\langle j_1~m_1~j_2~m_2 \mid j~m~j_1~j_2 \rangle : \bold{Clebsh-Gordan coefficients}
 $$
 
-<img src="/images/figure/KakaoTalk_20221218_155149421.png" alt="KakaoTalk_20221218_155149421" style="zoom:50%;" />
+<img src="/images/2023-01-09-Quantum Mechanics in Three Dimensions/KakaoTalk_20221218_155149421.png" alt="KakaoTalk_20221218_155149421" style="zoom:50%;" />
 
 ---
 
