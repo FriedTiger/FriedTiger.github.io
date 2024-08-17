@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "7)Small signal admittance
+title: "7)Small signal admittance"
 typora-root-url: ../
 categories : "Fundamental-of-Semicondutor"
 tag : diode
