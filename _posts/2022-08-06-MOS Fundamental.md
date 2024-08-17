@@ -146,7 +146,7 @@ $$
 $$
 전압에 대해서 미분방정식을 푼다는 것은 Boundary Condition을 통해 풀 수 있다. 이 때, 전자기학에서 배운 $\vec{D_1} -\vec{D_2} = \rho_{free}$ 식이 사용된다.
 
-계면에 $\rho_{free}$가 없는 상황이므로 $\vec{D_1} = \vec{D_2}$ 이다. 즉, $\frac{\vec{E}_{ox}}{\epsilon _{ox}} =\frac{\vec{E}_{semi}}{\epsilon _{semi}}$ 
+계면에 $\rho_{free}$가 없는 상황이므로 $\vec{D_1} = \vec{D_2}$ 이다. 즉, $\frac{\vec{E}_{\text{ox}}}{\epsilon _{\text{ox}}} = \frac{\vec{E}_{\text{semi}}}{\epsilon _{\text{semi}}}$ 
 
 <img src="/images/16. MOS Fundamentals/image-20240103142026786.png" alt="image-20240103142026786" style="zoom:67%;" />
 $$
