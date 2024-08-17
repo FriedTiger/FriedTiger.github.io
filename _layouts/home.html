@@ -12,6 +12,19 @@ layout: archive
 <p>질문이나 의견을 나누고싶다면 언제든 환영입니다~!</p>
 <p>이거 완전 럭키비키잖아~✬</p>
 
+<div class="categories">
+  <h2>Categories</h2>
+  <ul>
+    {% for category in site.categories %}
+      <li>
+        <a href="{{ site.baseurl }}/categories/{{ category[0] | slugify }}">
+          {{ category[0] }} ({{ category[1].size }})
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
 {{ content }}
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
