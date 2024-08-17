@@ -30,7 +30,7 @@ span : verb. **every vector** can be written as a **linear combination** of the 
 
 dimension : the number of vectors **in any basis**
 $$
-norm ~of ~the ~vector ~:~ \parallel \alpha \parallel ~\equiv~ \sqrt{<\alpha \mid \alpha>}
+\text{norm ~of ~the ~vector} ~:~ \parallel \alpha \parallel ~\equiv~ \sqrt{\angle \alpha \mid \alpha \rangle }
 $$
 unit vector : norm is 1 vector
 
@@ -122,8 +122,9 @@ p의 determinate states는 존재하지 않는다. 따라서, p는 Continuous Sp
 2. free particle의 위치는 어디에 있을까?
 
 $$
-\hat x g_y(x ) = x g_y(x) : x ~operator
-\\ \hat xg_y(x) = yg_y(x) : y ~eigenvalue
+\hat x g_y(x ) = x g_y(x) : x ~\text{operator}
+\\
+\hat xg_y(x) = yg_y(x) : y ~\text{eigenvalue}
 $$
 
 이를 정리하면 다음과 같다. 
@@ -140,20 +141,20 @@ $$
 
 1. Discrete Spectra
    $$
-   c_n = <f_n \mid \psi >
-   \\ 발견될 ~확률 = \mid c_n \mid ^2
+   c_n = \langle f_n \mid \psi \rangle 
+   \\ \text{발견될 ~확률} = \mid c_n \mid ^2
    $$
 
 2. Continuous Spectra
    $$
-   c_z = <f_z \mid \psi >
-   \\ 발견될 ~확률 = \mid c(z)\mid^2 dz
+   c_z = \langle f_z \mid \psi \rangle
+   \\ \text{발견될 ~확률} = \mid c(z)\mid^2 dz
    $$
    이를 푸리에 변환과 연계하여 생각할 수 있고 이는 다음과 같다.
 
 $$
-\phi (p, t) = \frac{1}{\sqrt{2 \pi \hbar}}\int^{\infty}_{-\infty}e^{-ipx\hbar}\mathbf{\psi} (x,t)dx ~ (in~momentum~space) 
-\\\psi (x, t) = \frac{1}{\sqrt{2 \pi \hbar}}\int^{\infty}_{-\infty}e^{ipx\hbar}\mathbf{\phi} (p,t)dx ~ (in~position~space)
+\phi (p, t) = \frac{1}{\sqrt{2 \pi \hbar}}\int^{\infty}_{-\infty}e^{-ipx\hbar}\mathbf{\psi} (x,t)dx ~ (\text{in~momentum~space}) 
+\\\psi (x, t) = \frac{1}{\sqrt{2 \pi \hbar}}\int^{\infty}_{-\infty}e^{ipx\hbar}\mathbf{\phi} (p,t)dx ~ (\text{in~position~space})
 $$
 
 ----
@@ -161,14 +162,14 @@ $$
 #### Uncertainty Priciple
 
 $$
-\sigma ^2 = <(\hat A - <A>)\psi \mid (\hat A - <A>)\psi> = <f\mid f>
+\sigma ^2 = \langle (\hat A - \langle A \rangle )\psi \mid (\hat A - \langle A \rangle )\psi> = \langle f\mid f \rangle 
 $$
 
 
 
 Schwarz inequality에 의해
 $$
-\sigma _A ^2 \sigma _B ^2 \geq (\frac{1}{2i}<[\hat A, \hat B]>)^2
+\sigma _A ^2 \sigma _B ^2 \geq (\frac{1}{2i}\langle [\hat A, \hat B] \rangle )^2
 $$
 따라서, commute 하지 않으면 일정 값보다 크거나 같아야한다. --> incompatible observables.
 
@@ -204,20 +205,20 @@ $$
 
 Q라는 observable과 ^Q의 operator를 생각해보자.
 $$
-\frac{d<Q>}{dt} = \frac{d<\psi \mid \hat Q \psi>}{dt}
+\frac{d \langle Q \rangle }{dt} = \frac{d \langle \psi \mid \hat Q \psi \rangle }{dt}
 \\ i \hbar \frac{\partial  \psi}{\partial t} = \hat H \psi
 $$
 이를 정리하면 다음과 같다.
 $$
-\frac{d<Q>}{dt} = \frac{i}{\hbar}<[\hat H, \hat Q]> + <\frac{\partial \hat Q}{\partial t}>
+\frac{d \langle Q \rangle }{dt} = \frac{i}{\hbar} \langle [\hat H, \hat Q] \rangle  + \langle \frac{\partial \hat Q}{\partial t}\rangle 
 $$
 이를 슈바르츠 부등식을 적용하면,
 $$
-\frac{\sigma_Q}{\mid\frac{d<Q>}{dt}\mid}\sigma _H \geq \frac{\hbar}{2}\mid\frac{d<Q>}{dt}\mid ( Q는~ 모든 ~어떠한~ 물리량 )
+\frac{\sigma_Q}{\mid\frac{d<Q>}{dt}\mid}\sigma _H \geq \frac{\hbar}{2}\mid\frac{d<Q>}{dt}\mid ( \text{Q는~ 모든 ~어떠한~ 물리량} )
 $$
 다음과 같이 생각할 수 있다.
 $$
-\triangle t \equiv \frac{\sigma_Q}{\mid\frac{d<Q>}{dt}\mid} ( \triangle t는~ Q의~물리량이~표준편차로~변하는데~걸리는~시간)
+\triangle t \equiv \frac{\sigma_Q}{\mid\frac{d<Q>}{dt}\mid} ( \triangle \text{t는~ Q의~물리량이~표준편차로~변하는데~걸리는~시간})
 $$
 
 ---
