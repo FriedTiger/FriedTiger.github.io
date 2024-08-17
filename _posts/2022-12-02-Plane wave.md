@@ -418,3 +418,71 @@ $$
 2. Snell's law를 나타난대난 것
 
 을 알 수 있다. Plane of incidence에서 전기장이 수직이면 s-pol 자기장이 자기장이 수직이면 p-pol이다. 
+
+#### S polarization
+
+경계조건에서 
+
+1. $E_{\parallel}$ 이 연속이다. 
+2. Current가 흐르는 상황이 아니므로 $H_{\parallel}$ 이 연속이다 라는 조건으로 구해야한다.
+
+$$
+\begin{align}
+&1. ~~1+r = t
+\\
+&2.-\frac{k_z}{\mu_1}e^{ik_xx}-\frac{k_z r}{\mu_1}e^{ik_xx} = -\frac{q_z t }{\mu_1}e^{iq_xx}
+\\
+&~~~~\frac{k_z}{\mu_1} + \frac{k_z}{\mu_1}r = \frac{q_z}{\mu_2}t
+\\
+\end{align}
+$$
+
+따라서 다음과 같다.
+$$
+\begin{align}
+\\
+&t = \frac{2k_z}{q_z+k_z}
+\\
+&r = \frac{\mu_2 k_z - \mu_1 q_z}{\mu_1 q_z + \mu_2 k_z}
+\\
+&T = \frac{n_2 cos\theta _t}{n_1 cos {\theta}_i}\vert t \vert ^2
+\\
+&R = \vert r \vert ^2
+\end{align}
+$$
+
+#### P polarization
+
+경계조건에서
+
+1. current가 흐르는 상황이 아니므로 $H_{\parallel}$ 이 연속이다 
+2. $E_{\parallel}$ 이 연속이다. 
+
+$$
+\begin{align}
+&1. ~~1+r = t
+\\
+&2.-\frac{k_z}{\epsilon_1}e^{ik_xx}-\frac{k_z r}{\epsilon_1}e^{ik_xx} = -\frac{q_z t }{\epsilon_1}e^{iq_xx}
+\\
+&~~~~\frac{k_z}{\epsilon_1} + \frac{k_z}{\epsilon_1}r = \frac{q_z}{\epsilon_2}t
+\\
+\end{align}
+$$
+
+따라서 다음과 같다.
+$$
+\begin{align}
+\\
+&t = \frac{2\epsilon_2 k_z}{\epsilon_1 q_z+\epsilon_2 k_z}
+\\
+&r = \frac{\epsilon_2 k_z - \epsilon_1 q_z}{\epsilon_1 q_z + \epsilon_2 k_z}
+\\
+&T = \frac{\sqrt{\epsilon_1 \mu_2} cos\theta _t}{\sqrt{\epsilon_2 \mu_1} cos {\theta}_i}\vert t \vert ^2
+\\
+&R = \vert r \vert ^2
+\end{align}
+$$
+
+---
+
+#### Evanescent Field in S polarization전반사
