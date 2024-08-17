@@ -411,3 +411,10 @@ $$
 ---
 
 #### Plane of Incidence
+
+임의의 각도에 입사하는 전자기파의 s-pol과 p-pol을 다루기 전에 $E_{\parallel}$ 이 같음을 통해서
+
+1. 전자기파의 Plane of Incidence를 구성한다는 것
+2. Snell's law를 나타난대난 것
+
+을 알 수 있다. Plane of incidence에서 전기장이 수직이면 s-pol 자기장이 자기장이 수직이면 p-pol이다. 
