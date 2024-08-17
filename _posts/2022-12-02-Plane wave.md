@@ -495,7 +495,7 @@ $$
 $$
 에너지는 통과하지 않을까?
 
-Evanescent field에서 Energy $\langle S \rangle $ 을 구해보면 0 이 나오는 것을 확인할 수 있다. --> 입사되고 반사되는 에너지가 같다고 해석해야 한다고 생각한다.
+Evanescent field에서 Energy $\langle S \rangle $ 을 구해보면 0 이 나오는 것을 확인할 수 있다. 즉, 입사되고 반사되는 에너지가 같다고 해석해야 한다고 생각한다.
 
 <img src="/images/2022-12-02-Plane wave/image-20230626084601201.png" alt="image-20230626084601201" />
 
@@ -504,3 +504,4 @@ Evanescent field에서 Energy $\langle S \rangle $ 을 구해보면 0 이 나오
 ---
 
 #### S polarization & P polarization 전반사
+
