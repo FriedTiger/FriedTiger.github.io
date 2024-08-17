@@ -2,7 +2,7 @@
 layout: single
 title: "5)Crystal Vibration-Dispersion Relation"
 typora-root-url: ../
-categories : "Solid State Physics"
+categories : "Solid-State-Physics"
 tag : phonon
 #tag : [me, me2, me3]
 toc : true

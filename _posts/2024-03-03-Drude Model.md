@@ -2,7 +2,7 @@
 layout: single
 title: "1)Drude Model"
 typora-root-url: ../
-categories : "Solid State Physics"
+categories : "Solid-State-Physics"
 tag : drude
 #tag : [me, me2, me3]
 toc : true

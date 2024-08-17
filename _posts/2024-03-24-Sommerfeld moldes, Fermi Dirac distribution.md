@@ -2,7 +2,7 @@
 layout: single
 title: "4)Sommerfeld Models-Fermi Dirac Distribution"
 typora-root-url: ../
-categories : "Solid State Physics"
+categories : "Solid-State-Physics"
 tag : sommerfeld
 #tag : [me, me2, me3]
 toc : true

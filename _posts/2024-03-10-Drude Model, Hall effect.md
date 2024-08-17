@@ -2,7 +2,7 @@
 layout: single
 title: "2)Drude Model-Hall Effect"
 typora-root-url: ../
-categories : "Solid State Physics"
+categories : "Solid-State-Physics"
 tag : [drude, hall]
 #tag : [me, me2, me3]
 toc : true

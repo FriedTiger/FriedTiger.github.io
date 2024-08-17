@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "6)Band Theory"
+title: "7)Band Theory"
 typora-root-url: ../
-categories : "Solid State Physics"
+categories : "Solid-State-Physics"
 tag : band
 #tag : [me, me2, me3]
 toc : true

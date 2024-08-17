@@ -2,7 +2,7 @@
 layout: single
 title: "6)Crystal Vibration-phonon"
 typora-root-url: ../
-categories : "Solid State Physics"
+categories : "Solid-State-Physics"
 tag : phonon
 #tag : [me, me2, me3]
 toc : true
