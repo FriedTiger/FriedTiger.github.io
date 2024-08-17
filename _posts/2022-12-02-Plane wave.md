@@ -1,0 +1,160 @@
+---
+layout: single
+title: "9-1)Plane Wave"
+typora-root-url: ../
+categories : "Electromagnetic"
+tag : electrodynamics
+#tag : [me, me2, me3]
+toc : true
+toc_sticky : true
+author_profile : false
+---
+## Electromagnetic 
+
+ #### Electromagnetic Wave
+
+Maxwell equation은 다음과 같다.
+$$
+\begin{align}
+&\triangledown \cdot E &&= 0
+\\
+&\triangledown \times E &&= -\frac{\partial B}{\partial t}
+\\
+&\triangledown \cdot B &&= 0
+\\
+&\triangledown \times B &&= \mu_0\epsilon_0\frac{\partial E}{\partial t}
+\end{align}
+$$
+전기장과 자기장이 first-order, PDE 형태로  coupled 되어 있다.
+
+전기장과 자기장을 de-coupling시켜보자.
+$$
+\begin{align}
+&1. \triangledown \times (\triangledown \times \vec{E}) &&= -\triangledown \times \frac{\partial \vec{B}}{\partial t}
+\\
+&\triangledown^2\vec{E} &&= \mu_0 \epsilon_0 \frac{\partial ^2 \vec{E}}{\partial t^2} : \text{Helmholtz equation}
+\\
+&2. \triangledown \times (\triangledown \times \vec{B}) &&= \triangledown \times \mu_0 \epsilon_o \frac{\partial E}{\partial t}
+\\
+&\triangledown^2 \vec{B} &&= \mu_0 \epsilon_0 \frac{\partial ^2 \vec{B}}{\partial t ^2} : \text{Helmholtz equation}
+\end{align}
+$$
+De-coupling을 시키면 second-order , PDE 형태로 decoupled 되어 있는 것을 확인 할 수 있다.
+
+앞서 파동의 성질에서 $\triangledown ^2 f = \frac{1}{v^2}\frac{\partial ^2 f}{\partial t^2} $ 이므로
+
+위의 식에서 다음을 알 수 있다.
+$$
+v = \frac{1}{\sqrt{\mu_0 \epsilon_0}} = 3.00 \times 10^8 m/s
+$$
+
+이를 조금 더 물리적인 의미가 느껴지도록 다가가보자.
+
+다음과 같이 표현가능하다.
+$$
+\frac{\partial ^2 \vec{E}}{\partial t^2} = v^2 \frac{\partial^2 \vec{E}}{\partial x ^2}
+$$
+파동의 가속도의 관한 부분이 파동의 속도와 변곡성에 관해 비례한다는 것을 의미한다.
+
+---
+
+#### Plane wave
+
+plane wave의 source는 점전하가 아니라 전류가 $\omega$에 따라 진동하는 무한 평면이다.
+
+phasor에 개념을 통해 Maxwell equation을 쓰면 다음과 같다.
+$$
+\begin{align}
+&\triangledown \cdot \vec{\bold{E}}(r) &&= 0
+\\
+&\triangledown \times \vec{\bold{E}}(r) &&= i \omega \vec{\bold{B}}(r)
+\\
+&\triangledown \cdot \vec{\bold{B}}(r) &&= 0
+\\
+&\triangledown \times \vec{\bold{B}}(r) &&= -i\omega \mu_0 \epsilon_0 \vec{\bold{E}}(r)
+\end{align}
+$$
+이를 de-coupling시키면 다음과 같다.
+$$
+\begin{align}
+&1. \triangledown ^2 \vec{\bold{E}}(r) + \omega ^2 \epsilon _0 \mu _0 \vec{\bold{E}}(r) =0
+\\
+&2. \triangledown ^2 \vec{\bold{B}}(r) + \omega ^2 \epsilon _0 \mu _0 \vec{\bold{B}}(r) =0
+\\
+\end{align}
+$$
+
+$$
+\begin{align}
+&\bold{\text{전자기파에 대한 operator는 } \triangledown ^2 \text{이다.}}
+\\
+&\omega ^2 \epsilon _0 \mu_0  = k^2 \text{이라 정의하자.} ~~~~\text{ 즉, eigenvalue :} k^2
+\\
+&\text{또한 plane wave이므로} ~ \vec{\bold{E}}(r) = \bold{E}(x)~\text{라 정의하자. 라고 쓰면 안된다.}
+\\
+&\vec{\bold{E}}(r) = {\bold{E}}(r) \hat{x}
+\\
+&\vec{\bold{E}} \text{가 z축에 대해 depend한다고 가정하자.}
+\\
+&\therefore \vec{\bold{E}}(z) = {\bold{E}}(z) \hat{x}
+\end{align}
+$$
+
+이를 통해 다음을 구할 수 있다.
+$$
+\begin{align}
+&\text{위 식을 적분하면 다음을 얻을 수 있다.}
+\\
+&\vec{\bold{E}}(z) = {\bold{E}}(z) \hat{x} = \hat{x} \bold{E}^+ _0 e^{ikz} +  \hat{x} \bold{E}^- _0 e^{-ikz} 
+\\
+&k\text{에 방향을 부여하고,} ~~~\vec{k} \cdot \vec{k} = k^2 \omega ^2 \epsilon _ 0 \mu _ 0 \text{라 정의하면 다음처럼 나타내는 것이 이제 가능하다.}
+\\
+&\divideontimes \hat{x} \bold{E}^- _0 e^{-ikz}\text{가 사라지는 term이 된다.}
+\\
+\\
+&\vec{E}(z,t) = \hat{x} Real(\bold{E}e^{-i\omega t})= \hat{x}Real(\vec{E}_0 e^{(i\vec{k}\cdot \vec{r})}e^{-i\omega t})
+\\
+&\text{이를} \triangledown \cdot \vec{\bold{E}}(z) = 0\text{에 대입하여 어떻게 나오는지 살펴보자.}
+\\
+\\
+&\text{divergence를 취하면 다음과 같다.}
+\\
+&\triangledown \cdot \vec{E}(z,t) = Real(i\vec{k} \cdot \vec{E}(z) e^{-i \omega t})
+\\
+&\therefore \hat{x}\triangledown \cdot \bold{E}(z) = \hat{x}i\vec{k}\cdot \bold{E}(z)
+\\
+\end{align}
+$$
+결론 1 : 전기장을 공간에 대해서 미분하는 것은 phasor에서 $-i \omega$ 를 곱할 때 처럼 $i\vec{k}$ 를 내적하면 된다.
+
+결론 2 : 전기장은 다음처럼 나타낼 수 있다. $ \vec{x} E(r,t) = \vec{x} E_0 e^{i \vec{k} \cdot \vec{r}}$
+
+결론 3 : $k > 0 $ , $\vec{k} \cdot \vec{k} = k^2 = \omega^2 \epsilon_0 \mu_0 $
+
+
+
+자기장에 대해서는 다음과 같이 구한다.
+$$
+\begin{align}
+\\
+&\triangledown \times \vec{\bold{E}}(r) = i \omega \vec{\bold{B}}(r)\text{를 전개하면 다음과 같다.}
+\\
+&\vec{\bold{B}}(r) = \frac{\triangledown \times \vec{\bold{E}}(r)}{i \omega}
+\\
+&\text{위 식에서 전기장에 대한 식을 직접 구했으므로 외적하면 다음과 같다.}
+\\
+&\triangledown \times \bold{E}(r) = i \vec{k}\times \bold{E}(r) \text{를 구할 수 있다}
+\\ 
+&\bold{B}(r) = \frac{\triangledown \times \bold{E}(r)}{i \omega} \text{이므로}
+\\
+&\bold{B}(r) = \frac{i \vec{k}\times \bold{E}(r)}{i \omega}= \frac{k}{\omega}\hat{k}\times \bold{E}(r)= \frac{\hat{k}}{c}\times \bold{E}(r)
+\end{align}
+$$
+
+정리
+
+<img src="/images/9. Plane wave/image-20231227145303637.png" alt="image-20231227145303637" style="zoom:80%;" />
+
+전기장의 공간에 대한 curl은 자기장의 시간에 대한 미분과 같다.
+
+---
