@@ -24,7 +24,7 @@ Ideal MOS는 다음을 따른다.
 
 1) **Metal에 Forward Bias를 걸었을 때**
 
-<img src="C:\Users\minjun\Desktop\github\figure\image-20221227010138599.png" alt="image-20221227010138599" style="zoom:80%;" />
+<img src="/images/figure/image-20221227010138599.png" alt="image-20221227010138599" style="zoom:80%;" />
 
 - Metal 에 손잡이가 달렸다고 가정하고, 아래로 끌어내리자
 
@@ -37,7 +37,7 @@ Ideal MOS는 다음을 따른다.
 
 2. **Metal에 Backward Bias를 걸었을 때**
 
-<img src="C:\Users\minjun\Desktop\github\figure\image-20221227010247282.png" alt="image-20221227010247282" style="zoom:80%;" />
+<img src="/images/figure/image-20221227010247282.png" alt="image-20221227010247282" style="zoom:80%;" />
 
 - n-type에서 $N_D^+$ 가 depletion region으로 width를 가진다.
 
@@ -45,7 +45,7 @@ Ideal MOS는 다음을 따른다.
 
 3. **Metal에 더 큰 Backward Bias를 걸었을 때**
 
-<img src="C:\Users\minjun\Desktop\github\figure\image-20221227010404560.png" alt="image-20221227010404560" style="zoom:80%;" />
+<img src="/images/figure/image-20221227010404560.png" alt="image-20221227010404560" style="zoom:80%;" />
 
 만약, Depletion region이 계속 넓어지다 보면, Band Bending이 더 심해질 것이다.
 
@@ -99,15 +99,15 @@ $$
 
 1) Accumulation (정전압). $\phi _S < 0$ in p-type semiconductor
 
-<img src="C:\Users\minjun\Desktop\github\figure\image-20221227014247138.png" alt="image-20221227014247138" style="zoom:67%;" />
+<img src="/images/figure/image-20221227014247138.png" alt="image-20221227014247138" style="zoom:67%;" />
 
 2. Depletion & onset of inversion (역전압) $0<\phi _S < 2 \phi _F$ in p-type semiconductor
 
-    					<img src="../friedtiger/friedtiger.github.io/images/16. MOS Fundamentals/image-20221227014310867.png" alt="image-20221227014310867" style="zoom:80%;" /> 					<img src="C:\Users\minjun\Desktop\github\figure\image-20221227014359840.png" alt="image-20221227014359840" style="zoom:67%;" /> 
+    					<img src="../friedtiger/friedtiger.github.io/images/16. MOS Fundamentals/image-20221227014310867.png" alt="image-20221227014310867" style="zoom:80%;" /> 					<img src="/images/figure/image-20221227014359840.png" alt="image-20221227014359840" style="zoom:67%;" /> 
 
 3. heavily Inversion(역전압) $\phi _S > 2 \phi _F$
 
-   <img src="C:\Users\minjun\Desktop\github\figure\image-20221227014422299.png" alt="image-20221227014422299" style="zoom:67%;" />
+   <img src="/images/figure/image-20221227014422299.png" alt="image-20221227014422299" style="zoom:67%;" />
 
 3번째 그림에서 depletion inversion이 시작된다. minority carrier의 inversion을 $\delta$-function으로 나타낸다고 생각하자.
 
@@ -167,7 +167,7 @@ $$
 
 #### C-V Measurement
 
-<img src="C:\Users\minjun\Desktop\github\figure\image-20221227082609717.png" alt="image-20221227082609717" style="zoom:80%;" />
+<img src="/images/figure/image-20221227082609717.png" alt="image-20221227082609717" style="zoom:80%;" />
 
 (a) $V_G > 0$ Majority Carrier의 Accumulation
 $$
@@ -220,11 +220,11 @@ Majority Carrier가 옆으로 움직이면서 W가 커진다. 즉, C가 작아�
 
 (a)(b)(c)(d)를 종합하면 다음의 그래프를 얻을 수 있다.
 
-<img src="C:\Users\minjun\Desktop\github\figure\image-20221227084400213.png" alt="image-20221227084400213" style="zoom:80%;" />
+<img src="/images/figure/image-20221227084400213.png" alt="image-20221227084400213" style="zoom:80%;" />
 
 다음의 상황에 대해서 살펴보자
 
-<img src="C:\Users\minjun\Desktop\github\figure\image-20221227091341270.png" alt="image-20221227091341270" style="zoom:80%;" />
+<img src="/images/figure/image-20221227091341270.png" alt="image-20221227091341270" style="zoom:80%;" />
 
 Majority Carrier가 Capacitance에 영향을 미치는 상황이다.
 
@@ -238,7 +238,7 @@ $E_i -E_F$ 가 큰 상황에서 Inversion 되기 위한 $V_G$ 가 커진다.
 
 또 다른 상황을 살펴보자.
 
-<img src="C:\Users\minjun\Desktop\github\figure\image-20221227092017327.png" alt="image-20221227092017327" style="zoom:67%;" />
+<img src="/images/figure/image-20221227092017327.png" alt="image-20221227092017327" style="zoom:67%;" />
 
 oxide 두께를 바꾼 상황이고, low frequency & High frequency 상황이다.
 
