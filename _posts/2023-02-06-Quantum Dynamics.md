@@ -40,7 +40,7 @@ $$
 \psi(t) = c_a(t) \psi_a e^{-i \hbar t / \hbar} + c_b(t) \psi_b e^{- i \hbar t / \hbar}, ~~~~ \vert c_a \vert ^2 + \vert c_b \vert ^2 = 1
 $$
 
-## The Perturbed System
+#### The Perturbed System
 
 $$
 H = H_0 + H^{'}(t) = H_0 + \lambda W(t)
@@ -143,7 +143,7 @@ $$
 
 Quantum dot도 레이저 같은 원리일까 OLED와 같은 원리일까?
 
-디스플레이 소자는 OLED와 같은 Spontaneous Emission이라고 하신다.
+디스플레이 소자는 OLED와 같은 Spontaneous Emission이다.
 
 
 
