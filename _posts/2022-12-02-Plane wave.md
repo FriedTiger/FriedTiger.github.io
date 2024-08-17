@@ -487,17 +487,17 @@ $$
 
 #### Evanescent Field in S polarization전반사
 
-<img src="/images/2022-12-02-Plane wave/image-20230626081607055.png" alt="image-20230626081607055" style="zoom:80%;" />
+<img src="/images/2022-12-02-Plane wave/image-20230626081607055-1723875783768-7.png" alt="image-20230626081607055" style="zoom:80%;" />
 $$
-\vec{E}_t = Real[E_0 ~t ~\hat{y} ~e^{-\frac{\omega}{c}\sqrt{{n_1}^2 sin^2\theta _i - n^2_2}z}~ e^{i\frac{\omega}{c}n_1 sin \theta _i x}\cdot e^{-iwt}]
+\vec{E}_t = \text{Real}\left[ E_0 \cdot t \cdot \hat{y} \cdot e^{-\frac{\omega}{c}\sqrt{n_1^2 \sin^2\theta_i - n_2^2}z} \cdot e^{i\frac{\omega}{c}n_1 \sin \theta_i \cdot x} \cdot e^{-i\omega t} \right]
 \\
-\text{ z축방향으로는 움직이지 않음. x축 방향으로 움직임.}
+\text{z축 방향으로는 움직이지 않음. x축 방향으로 움직임.}
 $$
 에너지는 통과하지 않을까?
 
 Evanescent field에서 Energy $\langle S \rangle $ 을 구해보면 0 이 나오는 것을 확인할 수 있다. 즉, 입사되고 반사되는 에너지가 같다고 해석해야 한다고 생각한다.
 
-<img src="/images/2022-12-02-Plane wave/image-20230626084601201.png" alt="image-20230626084601201" />
+<img src="/images/2022-12-02-Plane wave/image-20230626084601201-1723875783768-8.png" alt="image-20230626084601201" />
 
 따라서, evanescent filed로 에너지가 통과되지만 k값이 0이기에 흡수되는 에너지 없이 모두 반사된다고 생각하였다.
 
