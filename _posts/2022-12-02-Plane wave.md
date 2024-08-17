@@ -505,3 +505,87 @@ Evanescent field에서 Energy $\langle S \rangle $ 을 구해보면 0 이 나오
 
 #### S polarization & P polarization 전반사
 
+<img src="/images/2022-12-02-Plane wave/image-20230626085216901.png" alt="image-20230626085216901" style="zoom:70%;" />
+
+<img src="/images/2022-12-02-Plane wave/image-20230626085239340.png" alt="image-20230626085239340" style="zoom:70%;" />
+
+---
+
+#### Electromagnetic waves in matter
+
+원자와 전자간의 힘을 다음과같은 harmonic oscillator로 나타낼 수 있다.
+
+가정 : 전자기파의 전자를 땡기는 힘이 크지 않으므로 harmonic oscillator를 나타낼 것이다.
+
+<img src="/images/2022-12-02-Plane wave/image-20230626090601694.png" alt="image-20230626090601694" style="zoom: 80%;" />
+$$
+\begin{align}
+\\
+m \frac{d^2 x}{dt^2} = F_{binding} + F_{driving}&+F_{damping}
+\\
+m \frac{d^2 x}{dt^2} + m\gamma\frac{dx}{dt}+m \omega^2_0x &=  qE_0 cos(\omega t)
+\\
+\text{Phasor로 나타내면} &\text{ 쉽게 다음을 구할 수 있다.}
+\\
+\widetilde{x}_0 &= \frac{q/m}{\omega^2_0 - \omega^2 - i \gamma \omega}E_0
+\\
+\text{한 원자에 전자가 무수히 많고 각 }& \text{전자-원자핵 간의 고유 frequency를 고려하면 다음과같다.}
+\\
+\widetilde{\bold{P}} &= \frac{Nq^2}{m}(\sum_j \frac{f_j}{\omega ^2 _j - \omega ^2 - i \gamma \omega})\widetilde{\bold{E}}
+\\
+\widetilde{\bold{P}} &= \epsilon_0 \widetilde{\chi}_e \widetilde{\bold{E}}
+\\
+\end{align}
+$$
+이를 통해 dielctric constant가 **complex dielectric constant** 를 구성한다는 것을 알 수 있다.
+
+absorption coefficient : $\alpha = 2k$ 이유: Intensity는 제곱에 대한 값이기 때문에
+
+skin depth : $d \equiv \frac{1}{k}$
+
+---
+
+#### Elctromagnetic waves in metals.
+
+<img src="/images/2022-12-02-Plane wave/image-20230626091830392.png" alt="image-20230626091830392" style="zoom:80%;" />
+
+이를 통해 위와 같이 서술하며면 다음을 얻을 수 있다.
+$$
+\begin{align}
+\\
+\widetilde{\epsilon}_{Drude} &= 1- \frac{nq^2}{m \epsilon _0}\frac{1}{\omega^2+i\gamma \omega}
+\\
+&= 1- \frac{\omega _p ^2}{\omega ^2 + i \gamma \omega}= [1- \frac{\omega^2_p}{\omega ^2 + \gamma ^2}]+i[\frac{\gamma \omega ^2 _p}{\omega (\omega ^2 + \gamma ^2)}]
+\end{align}
+$$
+만약, $\gamma \approx \text{small}$ 이고 $\omega < \omega _p$ 이면 $\widetilde{\epsilon}_{Drude}$ 의 실수 부분이 음수가 된다.
+
+결과 :
+$$
+\begin{align}
+&1. \text{전자의 진동이 drving force에 비해 180도 phase out이 되어버린다.}
+\\
+&2. \text{전자기파가 지나갈 수 없다.}
+\\
+\end{align}
+$$
+
+#### Surface plasmon polariton
+
+$\widetilde{\epsilon}_{Drude}$ 의 의미를 Interface에서 살펴보는 것. 
+
+<img src="/images/2022-12-02-Plane wave/image-20230626092650210.png" alt="image-20230626092650210" style="zoom:50%;" />
+$$
+\begin{align}
+&1.\epsilon_1(\omega)\epsilon_2(\omega)<0
+\\
+&2. \epsilon_1(\omega)+\epsilon_2(\omega)<0
+\\
+&\text{를 만족하면}
+\\
+&\text{계면에 수직방향으로 localized 되어 있고, 계면을 따라 움직이는 전자기파가 발생한다.}
+\end{align}
+$$
+
+
+
