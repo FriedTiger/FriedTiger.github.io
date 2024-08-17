@@ -47,4 +47,4 @@ toc_sticky : true
 
 ## Hobby
 
-Swimming, Weight training
+Swimming, Weight training, Watching Baseball(KBO KIA '06-)
