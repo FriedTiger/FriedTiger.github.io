@@ -21,8 +21,8 @@ author_profile : false
 | operators               | transformations                              |
 | Hermitian operators     | Linear transformations                       |
 | normalizable            | Hillbert space                               |
-| Hermitian을 만족시킨다. | 행렬에 transpose conjugate해도 같다.         |
-| commute                 | 물리적 의미를 갖는다, 공통된 basis를 갖는다. |
+| Hermitian을 만족시킨다.  | 행렬에 transpose conjugate해도 같다.          |
+| commute                 | 물리적 의미를 갖는다, 공통된 basis를 갖는다.    |
 
 Basis : a set of ***Linearly Independent vectors*** that **spans** the space ; f(x)
 
