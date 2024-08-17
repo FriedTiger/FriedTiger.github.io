@@ -269,3 +269,50 @@ $$
 \end{align}
 $$
 와 같다.
+
+---
+
+#### Plane wave in matter
+
+$$
+\begin{align}
+\triangledown \cdot \bold{D}(r) &= 0
+\\
+\triangledown \times \bold{E}(r) &= i \omega \bold{B}(r)
+\\
+\triangledown \cdot \bold{B}(r) &= 0
+\\
+\triangledown \times \bold{H}(r) &= \bold{J}_f(r) - i\omega \bold{D}(r)
+\\
+\\
+\bold{D}(r) &= \epsilon(\omega, r)\bold{E}(r)
+\\
+\bold{H}(r) &= \frac{1}{\mu(\omega, r)}\bold{E}(r)
+\end{align}
+$$
+
+1. $\vec{P}(\vec{r},t) = \chi(\vec{r},t)\otimes  \vec{E}(\vec{r},t)$ 가 $\epsilon$, $\mu$ 를 Phasor로 표현할 때 Linear  system인 $\vec{P}(\omega) = \chi(\omega)\vec{E}(\omega)$으로 나타낼 수 있다.
+2. harmonic oscillator에서도 알 수 있으시 $\omega$ 에따라 $\epsilon$ 및 $\mu$ 가 바뀔 것이다.
+
+ Homogeneous media(r에 무관)에서 plane wave를 살펴보자.
+$$
+\begin{align}
+&\triangledown^2 \vec{\bold{E}}(r) + \omega ^2 \epsilon \mu \vec{\bold{E}}(r)= 0 : \text{Helmholtz equation}
+\\
+&1. \vec{k} \cdot \vec{k} = \omega ^2 \epsilon \mu : \text{주파수에 따라 k가 커지고, 물질에서 k가 커진다. 물질에서 파장이 줄어든다.}
+\\
+&2. \vec{k} \cdot \vec{k} = \omega ^2 \epsilon \mu = \omega ^2 \epsilon _0 \epsilon _r \mu_0 \mu_r = \epsilon _r\mu _r \frac{\omega  ^2}{c^2} ~~\because c = \frac{1}{\sqrt{\epsilon _ 0\mu_0}} \text{(모든 항이 1차 order라고 생각하면 편하다.)} 
+\\
+&3. \vec{k} \cdot \vec{k} = \epsilon _r\mu _r \frac{\omega  ^2}{c^2} = n^2 \frac{\omega ^2}{c^2} ~~\because n = \sqrt{\epsilon _r \mu _r} (c, \epsilon _0, \epsilon _r, \mu_0, \mu_r\text{모두 1차 order라고 생각하면 편하다.})
+\\
+&4. v = \frac{\omega}{k}= \frac{c}{n } : \text{phase velocity}\rightarrow \omega\text{는 그대로, } k\text{는 커짐}
+\\
+&5. \vec{S}(r,t) = \vec{E}(r,t)\times \vec{H}(r,t) = \frac{\vec{E}(r,t) \times \vec{B}(r,t)}{\mu}
+\\
+&6.I = \langle \vec{S}(r,t)\rangle = \frac{1}{2}Real(\frac{\vec{\bold{E}}(r)\times \vec{\bold{B}}^*(r)}{\mu}) = \frac{1}{2}Real(\vec{\bold{E}}(r) \times \vec{\bold{H}}^*(r))=\frac{1}{2 \mu}Real[\frac{\vec{k}}{\omega}\vec{\bold{E}}(r)\cdot \vec{\bold{E}}(r)^*] = \hat{k} \frac{1}{2} \frac{\sqrt{\epsilon }}{\sqrt{\mu}}Real(\vec{\bold{E}}(r) \cdot \vec{\bold{E}}(r)^*)
+\end{align}
+$$
+
+---
+
+#### Boundary Condition
