@@ -75,7 +75,7 @@ $$
 
 즉 아래 그림에서 이를 다시 확인할 수 있다.
 
-<img src="../friedtiger/friedtiger.github.io/images/16. MOS Fundamentals/image-20240103094201614.png" alt="image-20240103094201614" style="zoom:80%;" />
+<img src="/images/16. MOS Fundamentals/image-20240103094201614.png" alt="image-20240103094201614" style="zoom:80%;" />
 
 
 
@@ -103,7 +103,7 @@ $$
 
 2. Depletion & onset of inversion (역전압) $0<\phi _S < 2 \phi _F$ in p-type semiconductor
 
-    					<img src="../friedtiger/friedtiger.github.io/images/16. MOS Fundamentals/image-20221227014310867.png" alt="image-20221227014310867" style="zoom:80%;" /> 					<img src="/images/figure/image-20221227014359840.png" alt="image-20221227014359840" style="zoom:67%;" /> 
+    					<img src="/images/16. MOS Fundamentals/image-20221227014310867.png" alt="image-20221227014310867" style="zoom:80%;" /> 					<img src="/images/figure/image-20221227014359840.png" alt="image-20221227014359840" style="zoom:67%;" /> 
 
 3. heavily Inversion(역전압) $\phi _S > 2 \phi _F$
 
@@ -129,7 +129,7 @@ $$
 \\
 W = \left[\frac{2K_S \epsilon _0}{qN_A} \phi_s\right]^{1/2}
 $$
-<img src="../friedtiger/friedtiger.github.io/images/16. MOS Fundamentals/image-20240103101925849.png" alt="image-20240103101925849" style="zoom:80%;" />
+<img src="/images/16. MOS Fundamentals/image-20240103101925849.png" alt="image-20240103101925849" style="zoom:80%;" />
 
 ---
 
@@ -148,7 +148,7 @@ $$
 
 계면에 $\rho_{free}$가 없는 상황이므로 $\vec{D_1} = \vec{D_2}$ 이다. 즉, $\frac{\vec{E}_{ox}}{\epsilon _{ox}} =\frac{\vec{E}_{semi}}{\epsilon _{semi}}$ 
 
-<img src="../friedtiger/friedtiger.github.io/images/16. MOS Fundamentals/image-20240103142026786.png" alt="image-20240103142026786" style="zoom:67%;" />
+<img src="/images/16. MOS Fundamentals/image-20240103142026786.png" alt="image-20240103142026786" style="zoom:67%;" />
 $$
 \begin{align}
 &\text{Exact Solution} : delta-depletion solution
@@ -160,7 +160,7 @@ $$
 \end{align}
 $$
 
-<img src="../friedtiger/friedtiger.github.io/images/16. MOS Fundamentals/image-20240103160714343.png" alt="image-20240103160714343" style="zoom:67%;" />
+<img src="/images/16. MOS Fundamentals/image-20240103160714343.png" alt="image-20240103160714343" style="zoom:67%;" />
 
 
 ---
