@@ -57,3 +57,50 @@ $$
 ---
 
 #### The Angular Equation
+
+아래 식에서 Y는 V(r)과 관계가 없으므로 **어떠한 상황과 관계없이 항상 성립하는 식**이다.
+
+이를 풀기위해 변수분리를 통하면 다음과 같다.
+$$
+Y(\theta, \phi) = \Theta(\theta)\Phi(\phi)
+$$
+이를 대입하면 다음과 같다.
+$$
+\underline{\{ \frac{1}{\Theta}[sin\theta \frac{d}{d\theta}(sin \theta \frac{d\Theta}{d\theta})]+l(l+1)sin^2 \theta\}}+\underline{\frac{1}{\Phi}\frac{d^2 \Phi}{d \phi ^2}} = 0
+$$
+따라서, 다음과 같이 표기할 수 있다.
+$$
+\{ \frac{1}{\Theta}[sin\theta \frac{d}{d\theta}(sin \theta \frac{d\Theta}{d\theta})]+l(l+1)sin^2 \theta\} = m^2
+\\
+\frac{1}{\Phi}\frac{d^2 \Phi}{d \phi ^2} = -m^2
+$$
+이를 최종적으로 정리하면 다음과 같다.
+$$
+\Phi(\phi) = e^{im\phi}
+\\
+\Phi(\phi + 2\pi) = \Phi(\phi) 
+\text{이므로, ~~~따라서~ m은 정수다 }
+$$
+
+$$
+\Theta(\theta) = A P^m_l (cos\theta) \text{로 나누어 나타낼 수 있다 : associated Legendre function}
+\\
+P^m_l \text{는 2개의 이름표를 갖고 있는 것을 알 수 있다.}
+$$
+
+
+
+다음 상황에서 Nomarlize를 찾을 수 있다.
+$$
+\int{\mid \psi \mid}^2 r^2 sin\theta ~dr~ d\theta~ d\phi = \underline{\int\mid R \mid ^2 r^2~dr}~~\underline{\int\mid Y \mid ^2 d \ohm}=1
+\\
+\ohm \text{은 Solid angle}
+$$
+이를 모두 정리하면 다음과 같다.
+$$
+Y^m_l(\theta, \phi) = \sqrt{\frac{(2l+1)}{4 \pi}\frac{(l-m)!}{(l+m)!}}e^{im\phi} P^m_l(cos\theta)
+$$
+
+---
+
+#### The Radial Equation
