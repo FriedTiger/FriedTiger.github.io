@@ -137,7 +137,7 @@ $$
 $$
 I = I_s \left(e^{qV_A/kT}-1\right)
 \\
-I_s \equiv \Alpha s\Alpha^* \cdot T^2 \cdot e^{-\Phi_B/kT}
+I_s \equiv \alpha  s\alpha ^* \cdot T^2 \cdot e^{-\Phi_B/kT}
 $$
 ***Reverse Bias***
 
