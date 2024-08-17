@@ -21,8 +21,8 @@ author_profile : false
 | operators               | transformations                              |
 | Hermitian operators     | Linear transformations                       |
 | normalizable            | Hillbert space                               |
-| Hermitian을 만족시킨다.  | 행렬에 transpose conjugate해도 같다.          |
-| commute                 | 물리적 의미를 갖는다, 공통된 basis를 갖는다.    |
+| Hermitian을 만족시킨다. | 행렬에 transpose conjugate해도 같다.         |
+| commute                 | 물리적 의미를 갖는다, 공통된 basis를 갖는다. |
 
 Basis : a set of ***Linearly Independent vectors*** that **spans** the space ; f(x)
 
@@ -30,7 +30,7 @@ span : verb. **every vector** can be written as a **linear combination** of the 
 
 dimension : the number of vectors **in any basis**
 $$
-\text{norm ~of ~the ~vector} ~:~ \parallel \alpha \parallel ~\equiv~ \sqrt{\angle \alpha \mid \alpha \rangle }
+\text{norm ~of ~the ~vector} ~:~ \parallel \alpha \parallel ~\equiv~ \sqrt{<\alpha \mid \alpha>}
 $$
 unit vector : norm is 1 vector
 
@@ -60,7 +60,6 @@ complete : any vector can be expressed as a linear combination of any other func
   \\
   \text{hermition operator인} ~S_z \text{를 Matrix로 나타낼 때, n vector를~} S_z\text{operator 적용을 하고 m의 basis로 표현한 것을 의미한다.}
   $$
-  
 
 - 연산자.
 
@@ -70,11 +69,11 @@ complete : any vector can be expressed as a linear combination of any other func
 
 적용 전이다! O
 
-<img src="/images/3. Formalism for quantum mechanics/image-20220927182730682.png" alt="image-20220927182730682" />
+<img src="/images/2023-01-02-Formalism for quantum mechanics/image-20220927182730682.png" alt="image-20220927182730682" />
 
 그러나, 오해하지 말아야하는 것이 normalizable 한 basis 들의 선형 조합으로 이루어져있다. 따라서,  free particle Hamiltonian은 x에 대한 basis에 normalizable 하지 않으므로 Hillbert space가 아니다.
 
-<img src="/images/3. Formalism for quantum mechanics/image-20221031173312589.png" alt="image-20221031173312589" style="zoom:90%;" />
+<img src="/images/2023-01-02-Formalism for quantum mechanics/image-20221031173312589.png" alt="image-20221031173312589" style="zoom:90%;" />
 
 다음처럼 생각할 수 있다.
 
@@ -122,9 +121,8 @@ p의 determinate states는 존재하지 않는다. 따라서, p는 Continuous Sp
 2. free particle의 위치는 어디에 있을까?
 
 $$
-\hat x g_y(x ) = x g_y(x) : x ~\text{operator}
-\\
-\hat xg_y(x) = yg_y(x) : y ~\text{eigenvalue}
+\hat x g_y(x ) = x g_y(x) : x \text{~operator}
+\\ \hat xg_y(x) = yg_y(x) : y \text{~eigenvalue}
 $$
 
 이를 정리하면 다음과 같다. 
@@ -141,13 +139,13 @@ $$
 
 1. Discrete Spectra
    $$
-   c_n = \langle f_n \mid \psi \rangle 
+   c_n = <f_n \mid \psi >
    \\ \text{발견될 ~확률} = \mid c_n \mid ^2
    $$
 
 2. Continuous Spectra
    $$
-   c_z = \langle f_z \mid \psi \rangle
+   c_z = <f_z \mid \psi >
    \\ \text{발견될 ~확률} = \mid c(z)\mid^2 dz
    $$
    이를 푸리에 변환과 연계하여 생각할 수 있고 이는 다음과 같다.
@@ -162,14 +160,14 @@ $$
 #### Uncertainty Priciple
 
 $$
-\sigma ^2 = \langle (\hat A - \langle A \rangle )\psi \mid (\hat A - \langle A \rangle )\psi> = \langle f\mid f \rangle 
+\sigma ^2 = <(\hat A - <A>)\psi \mid (\hat A - <A>)\psi> = <f\mid f>
 $$
 
 
 
 Schwarz inequality에 의해
 $$
-\sigma _A ^2 \sigma _B ^2 \geq (\frac{1}{2i}\langle [\hat A, \hat B] \rangle )^2
+\sigma _A ^2 \sigma _B ^2 \geq (\frac{1}{2i}<[\hat A, \hat B]>)^2
 $$
 따라서, commute 하지 않으면 일정 값보다 크거나 같아야한다. --> incompatible observables.
 
@@ -201,16 +199,17 @@ $$
 $$
 \triangle t \triangle E \geq \frac{\hbar}{2}
 $$
+
 에너지 시간 불확정성의 원리는 위치-운동량 불확정성 원리와는 다르다. 
 
 Q라는 observable과 ^Q의 operator를 생각해보자.
 $$
-\frac{d \langle Q \rangle }{dt} = \frac{d \langle \psi \mid \hat Q \psi \rangle }{dt}
+\frac{d<Q>}{dt} = \frac{d<\psi \mid \hat Q \psi>}{dt}
 \\ i \hbar \frac{\partial  \psi}{\partial t} = \hat H \psi
 $$
 이를 정리하면 다음과 같다.
 $$
-\frac{d \langle Q \rangle }{dt} = \frac{i}{\hbar} \langle [\hat H, \hat Q] \rangle  + \langle \frac{\partial \hat Q}{\partial t}\rangle 
+\frac{d<Q>}{dt} = \frac{i}{\hbar}<[\hat H, \hat Q]> + <\frac{\partial \hat Q}{\partial t}>
 $$
 이를 슈바르츠 부등식을 적용하면,
 $$
@@ -239,7 +238,7 @@ ket : column, bra : 복소수 raw
 
 따라서, ket은 basis에 대한 vector, bra는 또 다른 vector basis에 대한 공간으로 생각할 수 있다. 
 
-<img src="/images/3. Formalism for quantum mechanics/image-20221109112253972.png" alt="image-20221109112253972" style="zoom:67%;" />
+<img src="/images/2023-01-02-Formalism for quantum mechanics/image-20221109112253972.png" alt="image-20221109112253972" style="zoom:67%;" />
 
 이를 다음과 같이 생각 할 수 있고, 따라서 이를 Dual Space라 한다.
 
