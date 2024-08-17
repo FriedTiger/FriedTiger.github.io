@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "8) Transient Response"
+title: "8)Transient Response"
 typora-root-url: ../
 categories : "Fundamental-of-Semicondutor"
 tag : diode
@@ -23,9 +23,9 @@ Transient response는 minority carrier를 분석한다.
 
 #### Turn off transient
 
-<img src="../friedtiger/friedtiger.github.io/images/8. pn Junction Diode Transient Response/image-20231220180750815.png" alt="image-20231220180750815" style="zoom:80%;" /><img src="../friedtiger/friedtiger.github.io/images/8. pn Junction Diode Transient Response/image-20231220181531193.png" alt="image-20231220181531193" style="zoom:80%;" />
+<img src="/images/8. pn Junction Diode Transient Response/image-20231220180750815.png" alt="image-20231220180750815" style="zoom:80%;" /><img src="/images/8. pn Junction Diode Transient Response/image-20231220181531193.png" alt="image-20231220181531193" style="zoom:80%;" />
 
-<img src="../friedtiger/friedtiger.github.io/images/8. pn Junction Diode Transient Response/image-20231220185737096.png" alt="image-20231220185737096" />
+<img src="/images/8. pn Junction Diode Transient Response/image-20231220185737096.png" alt="image-20231220185737096" />
 
 해석)
 
@@ -35,7 +35,7 @@ Transient response는 minority carrier를 분석한다.
 
 3. $t_s < t$ 에서 전류가 급격히 줄어드는 이유는 minority carrier가 급격히 줄어들어 $\frac{d \triangle p_n  }{dx} \vert_{x=x_n}$이 감소하기 때문이다. 
 
-<img src="../friedtiger/friedtiger.github.io/images/8. pn Junction Diode Transient Response/image-20231220182713440.png" alt="image-20231220182713440" style="zoom:80%;" />
+<img src="/images/8. pn Junction Diode Transient Response/image-20231220182713440.png" alt="image-20231220182713440" style="zoom:80%;" />
 
 **정량적 분석**
 
@@ -78,7 +78,7 @@ turn on transient은 turn off transient와는 전류 전압 관점에서 다르�
 
 상황을 쉽게 나타나기 위해 Current source를 가한 상황이다.
 
-<img src="../friedtiger/friedtiger.github.io/images/8. pn Junction Diode Transient Response/image-20231220185807823.png" alt="image-20231220185807823" />
+<img src="/images/8. pn Junction Diode Transient Response/image-20231220185807823.png" alt="image-20231220185807823" />
 
 항상, 해석을 할 때, majority carrier와 minority carrier를 나누어서 생각해야한다. 
 
@@ -86,7 +86,7 @@ turn on 이 되는 순간 majority carrier는 이미 다 넘어가 버린 상황
 
 turn on 이 되는 순간 majority carrier에 의해서 넘어간 minority carrier가 depletion region에 쌓이면서 $v_A$ 가 증가한다.
 
-<img src="../friedtiger/friedtiger.github.io/images/8. pn Junction Diode Transient Response/image-20231220184323125.png" alt="image-20231220184323125" style="zoom:80%;" />
+<img src="/images/8. pn Junction Diode Transient Response/image-20231220184323125.png" alt="image-20231220184323125" style="zoom:80%;" />
 
 마찬가지로 continuity equation은 다음과 같다.
 $$
