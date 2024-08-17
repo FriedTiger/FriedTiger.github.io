@@ -158,3 +158,114 @@ $$
 전기장의 공간에 대한 curl은 자기장의 시간에 대한 미분과 같다.
 
 ---
+
+#### Poynting Vector
+
+앞서 배웠던 것(1단원) Energy는 다음에 따라 계산된다.
+$$
+\begin{align}
+W &= \frac{1}{2}\int \rho V d\tau = \frac{\epsilon_0}{2}\int (\triangledown \cdot E)V d\tau 
+\\
+&= \frac{\epsilon_0}{2}[-\int E \cdot (\triangledown V)d\tau + \oint_S V E\cdot da] \text{ : integration by parts}
+\\
+&= \frac{\epsilon_0}{2}(\int _V E^2 d\tau + \oint _s V E \cdot da) : \triangledown V = -E 
+\\
+&=\frac{\epsilon_0}{2} \int E^2 d\tau ~~\text{ in all space}
+\end{align}
+$$
+
+
+에 따르면 Energy per unit volume은 다음과 같다.
+$$
+u_E(\vec{r}, t)= \frac{1}{2}\epsilon_0 E^2 (\vec{r},t)
+\\
+u_B(\vec{r}, t)= \frac{1}{2}\epsilon_0 B^2 (\vec{r},t)
+\\
+\vec{S}(\vec{r},t) = \frac{1}{\mu_0}(\vec{E}(\vec{r},t )\times \vec{B}(\vec{r},t))
+$$
+
+에너지에 대해서도 phasor 분석을 할 수 있을까? --> NO
+$$
+\begin{align}
+&\bold{\text{Phasor} \times \text{Phasor 에 대해서는 Phasor를 구할 수 없다.}}
+\\
+&\text{이유} : \text{Phasor는 복소평면 그래프 상에서 생각할 수 있다.}
+\\
+&\text{Phasor 끼리 곱해버리면 복소평면 그래프를 벗어나버린다.(의미를 잃어버림)}
+\end{align}
+$$
+**그러나! 시간평균에 대한 것은 Phasor를 통해 구할 수 있다.**
+
+<img src="/images/2022-12-02-Plane wave/image-20230625173736143.png" alt="image-20230625173736143" style="zoom:67%;" />
+
+평균값이 존재한다는 것을 phasor의 관점에서 설명할 수 있다고 생각하면 될 것같다.
+
+따라서, Energy per unit volume을 시간평균에 대해 나타내면 다음과 같다.
+$$
+\begin{align}
+&\text{내적에 대한 공식을 먼저 유도하자}
+\\
+&\vec{c}(\vec{r},t) = \vec{A}(\vec{r},t)\cdot \vec{B}(\vec{r},t), \text{when }\vec{A}, \vec{B}\text{가 모두 }\omega\text{로 진동할 때 상황이 있다 해보자.}
+\\
+&\text{phasor} \times \text{phasor로 나타낼 수 없기 때문에 우리가 알고 있던 정의를 사용하자.}
+\\
+&\vec{c}(\vec{r},t) = Real(\vec{\tilde A}(r)e^{-i\omega t})\cdot Real(\vec{\tilde B}(r)e^{-i\omega t})
+\\
+&\vec{c}(\vec{r},t) =(\frac{\vec{\tilde A}(r)e^{-i\omega t}+\vec{\tilde A}(r)^{*}e^{i\omega t}}{2})\cdot (\frac{\vec{\tilde B}(r)e^{-i\omega t}+\vec{\tilde B}(r)^{*}e^{i\omega t}}{2})
+\\
+&\vec{c}(\vec{r},t) =\frac{1}{4}(\vec{\tilde A}(r)\cdot \vec{\tilde{B}}(r)e^{-i2\omega t}+\vec{\tilde A}(r)^{*}\cdot \vec{\tilde{B}}(r)^{*}e^{-i2\omega t}+\vec{\tilde A}(r)\cdot \vec{\tilde{B}}(r)^{*}+\vec{\tilde A}(r)^{*}\cdot \vec{\tilde{B}}(r)) 
+\\
+&\text{시간평균을 구하면 다음과 같다.}
+\\
+&\langle \vec{c}(\vec{r},t)\rangle = \frac{1}{2}(\frac{\vec{\tilde A}(r)\cdot \vec{\tilde{B}}(r)^{*}+\vec{\tilde A}(r)^{*}\cdot \vec{\tilde{B}}(r)}{2}) = \frac{1}{2}Real(\vec{\tilde A}(r)\cdot \vec{\tilde B}(r)^{*})
+\\
+\end{align}
+$$
+
+**결론 : 내적의 시간 평균은 Phasor X 켤레phasor 의 절반의 Real Part이다.**
+
+이를 전기장과 자기장에 대해 나타내면 다음과 같다.
+$$
+\begin{align}
+&\text{Electric Energy density에 대한 시간평균 : } \langle u_E(\vec{r}, t)\rangle = \frac{1}{4}\epsilon_0 Real[\vec{\bold{E}}(r)\cdot \vec{\bold{E}}^*(r)]
+\\
+&\text{Magnetic Energy density에 대한 시간평균 : } \langle u_B(\vec{r}, t)\rangle = \frac{1}{4}\frac{1}{\mu_0} Real[\vec{\bold{B}}(r)\cdot \vec{\bold{B}}^*(r)] = \frac{1}{4}\epsilon_0 Real[\vec{\bold{E}}(r)\cdot \vec{\bold{E}}^*(r)] ~\because \vec{\bold{B}}= \frac{ik \times \vec{\bold{E}}}{i\omega}
+\\
+&\text{Planewave에서는 전기장과 자기장이 coupled 되어있다.}
+\\
+&\therefore \langle u(r,t)\rangle = \langle u_E(\vec{r}, t)\rangle + \langle u_B(\vec{r}, t)\rangle = \frac{1}{2}\epsilon_0 Real[\vec{\bold{E}}(r)\cdot \vec{\bold{E}}^*(r)] 
+\end{align}
+$$
+
+
+
+Poynting Vector는 외적의 형태로 되어있다. 따라서 다음과 같이 나타내야한다.
+$$
+\begin{align}
+\\
+&\text{Poynting Vector의 평균은 다음과 같이 구할 수 있다.}
+\\
+&\langle \vec{S}(\vec{r},t)\rangle  = \frac{1}{2\mu_0}Real[\vec{\bold{E}}(r)\times \vec{\bold{B}}^*(r)]= \frac{1}{2\mu_0}Real[\vec{\bold{E}}(r)\times (\frac{ik \times \vec{\bold{E}}(r)}{i\omega})^*]
+\\
+&~~~~~~~~~~~~~~=\frac{1}{2 \mu_0}Real[\frac{\vec{k}}{\omega}\vec{\bold{E}}(r)\cdot \vec{\bold{E}}(r)^*] = \hat{k} \frac{1}{2} \frac{\sqrt{\epsilon_0 }}{\sqrt{\mu_0}}Real(\vec{\bold{E}}(r) \cdot \vec{\bold{E}}(r)^*) =  \hat{k} ~ c~ \langle u(r,t)\rangle \equiv I
+\\
+\end{align}
+$$
+
+
+정리 : Poynting Vector의 시간 평균은 Energy density 곱하기 속도이다. 이는 마치 
+$$
+\begin{align}
+\\
+&\vec{\triangledown} \cdot {\vec{J}} = \frac{\partial q}{\partial t} :\text{carrier에 대한 flux}
+\\
+&\vec{\triangledown} \cdot {\vec{S}} = \frac{\partial u}{\partial t} : \text{energy에 대한 flutx}\text{와 같으므로}
+\\
+&\text{Energy Flux} = \vec{S}
+\\
+&\text{Momentum denisty} = \vec{g} = \frac{1}{c^2} \vec{S}
+\\
+&\vec{J} = \rho \vec{v}\text{처럼} ~\vec{S}\text{를 생각할 수 있다.}
+\end{align}
+$$
+와 같다.
