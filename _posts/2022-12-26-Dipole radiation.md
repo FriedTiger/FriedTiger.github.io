@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "9-4)Dipole radiation"
+title: "9-4)Dipole Radiation"
 typora-root-url: ../
 categories : "Electromagnetic"
 tag : electrodynamics
