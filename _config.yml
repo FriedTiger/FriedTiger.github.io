@@ -20,7 +20,7 @@ title                    : "Minjun's friedtiger"
 title_separator          : "|"
 subtitle                 : "Physics in Quantum dot-Organic semiconductor" # site tagline that appears below site title in masthead
 name                     : "Minjun Kim"
-description              : "An amazing website with my amazing life."
+description              : "An amazing physics with life."
 url                      : "https://friedtiger.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
