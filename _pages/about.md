@@ -30,9 +30,9 @@ toc_sticky : true
 
 - Device Physics (OLED, QLED)
 
-- Optical Simulation(MATLAB, COMSOL)
+- Optical Simulation (MATLAB, COMSOL)
 
-- Electrical Device Simultion(MATLAB, COMSOL)
+- Electrical Device Simulation (MATLAB, COMSOL)
 
 
 ## Education
