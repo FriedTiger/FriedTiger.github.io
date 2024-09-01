@@ -19,7 +19,6 @@ toc_sticky : true
       <p>Seoul National University</p>
       <p>Site : <a href="http://aone.snu.ac.kr/" target="_blank">http://aone.snu.ac.kr/</a></p>
       <p>Tel. +82-2-880-9559</p>
-      <p>Mobile: +82-10-3440-7662</p>
       <p>E-Mail: <a href="mailto:jaehuk1128@snu.ac.kr">jaehuk1128@snu.ac.kr</a></p>
     </div>
   </div>
