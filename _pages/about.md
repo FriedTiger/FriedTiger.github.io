@@ -14,7 +14,7 @@ toc_sticky : true
   <div style="display: inline-block;">
     <img src="../images/about/author_image.png" alt="author_image" style="zoom:20%; display: block; margin-bottom: 10px;" /> 
     <div>
-      <p>Ph.D. Candidate</p>
+      <p>('22-) Ph.D. Candidate</p>
       <p>Department of Electrical and Computer Engineering, Inter-university Semiconductor Research Center</p>
       <p>Seoul National University</p>
       <p>Site : <a href="http://aone.snu.ac.kr/" target="_blank">http://aone.snu.ac.kr/</a></p>
