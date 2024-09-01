@@ -24,6 +24,16 @@ toc_sticky : true
   </div>
 </div>
 
+## Research Interests
+
+- Nanophotonics
+
+- Device Physics (OLED, QLED)
+
+- Optical Simulation(MATLAB, COMSOL)
+
+- Electrical Device Simultion(MATLAB, COMSOL)
+
 
 ## Education
 
