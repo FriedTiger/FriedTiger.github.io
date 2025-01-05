@@ -28,7 +28,7 @@ toc_sticky : true
 
 - Nanophotonics
 
-- Device Physics (OLED, QLED)
+- Device Physics (QD-LED, OLED)
 
 - Optical Simulation (MATLAB, COMSOL)
 
@@ -52,7 +52,11 @@ toc_sticky : true
 
 ## Publication
 
-1. "[Top-Emitting Quantum Dot Light-Emitting Diodes: Theory, Optimization, and Application](https://doi.org/10.1002/smtd.202300266)," T. Lee, M. Lee, H. Seo, **M. Kim**, B. Chun, J. Kwak, ***Small Methods\* 8**(2), 2300266 (Feb. 20, 2024). **[Review]**
+1. "[Recent Advances in Light Outcoupling from Quantum-Dot Light-Emitting Diodes](https://doi.org/10.1021/acsphotonics.4c01617)," T. Lee, **M. Kim**, B. Chun, G. Park, S. Yim, S. Yu, J. Kwak, ***ACS Photonics\* 11**(12), 5050-5060 (Dec. 18, 2024). **[Review]**
+
+2. "[Top-Emitting Quantum Dot Light-Emitting Diodes: Theory, Optimization, and Application](https://doi.org/10.1002/smtd.202300266)," T. Lee, M. Lee, H. Seo, **M. Kim**, B. Chun, J. Kwak, ***Small Methods\* 8**(2), 2300266 (Feb. 20, 2024). **[Review]**
+
+   
 
 ## Hobby
 
