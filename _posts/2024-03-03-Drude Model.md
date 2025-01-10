@@ -86,7 +86,11 @@ Drude model의 한계 :
 
 #### Electron momentum 방정식
 
-momentum을 나타내기 위해 전자 1개의 운동량, 평균적인 속도를 이용해 나타내보자.
+책을 읽으면서 느낀 중요한 Concept
+
+: 전자 각 각의 운동량을 아는 것은 미친 짓이다. ''전자들의 묶음'' Macroscopic 관점에서 생각을 해보자.
+
+momentum을 나타내기 위해 전자들의 운동량, 평균적인 속도를 이용해 나타내보자.
 
 가정 - 전자가 이온과 충돌하면 운동량을 잃는다.
 
@@ -96,38 +100,51 @@ momentum을 나타내기 위해 전자 1개의 운동량, 평균적인 속도를
 
 <img src="/images/1. Drude Model/image-20240319212902812.png" alt="image-20240319212902812" style="zoom:67%;" />
 
-1) 충돌하지 않았을 시
-   $$
-   \begin{align}
-   &p (t + dt) = \text{기존 운동량 + 외부 힘으로 인한 운동량}
-   \\
-   &p (t + dt) = p(t) + F(t)dt
-   \end{align}
-   $$
-   
+''전자가 이온과 충돌하면 운동량을 잃는다.' 라는 가정을 잘 생각해보면 전자는 평균시간 $\tau$ 에서 운동량을 잃게 된다.
 
-2. 충동하였을 시
+그러나, 정말 운동량을 잃나?라고 생각하면 많이 의문이 든다. 
 
+따라서 전자의 운동량을 잃는다. 라고 생각할 때, "Average the final momentum" 이 0이다라고 생각하는 게 좋다.
+
+이를 통해 다음의 식을 생각할 수 있다.
 $$
-p(t+dt) \leq F(t)dt
+p(t) : \text{운동량}, F(t) : \text{전기장, 자기장에 의한 외부힘}
+\\
+\langle p(t+dt) \rangle = (1 - \frac{dt}{\tau})( \langle p(t) \rangle  + F dt ) +  \frac{dt}{\tau} ~0
 $$
-
-1과 2를 확률을 고려하여 더하면 다음과 같다.
+다음의 식을 통해 전개해보자.
 $$
 \begin{align}
-&p(t+dt) = (1-\frac{dt}{\tau}) \times 1 + \frac{dt}{\tau} \times 2
+&\langle p(t+dt) \rangle = (1 - \frac{dt}{\tau})( \langle p(t) \rangle  + F dt ) +  \frac{dt}{\tau} ~0
 \\
-&p(t+dt) = (1-\frac{dt}{\tau}) \times (p(t)+F(t)dt) + \frac{dt}{\tau} \times (F(t)dt)
+&\langle p(t+dt) \rangle = \langle p(t) \rangle  - \frac{dt}{\tau} \langle p(t) \rangle + F dt - \frac{dt}{\tau}F dt-  \frac{dt}{\tau} ~0
 \\
-&p(t+dt) = p(t)+F(t)dt - \frac{dt}{\tau}p(t)
+&\langle p(t+dt) \rangle - \langle p(t) \rangle  = - \frac{dt}{\tau} \langle p(t) \rangle + F dt - \frac{dt}{\tau}F dt
 \\
-&p(t+dt) - p(t) = F(t)dt - \frac{dt}{\tau}p(t)
+&\frac{\langle p(t+dt) \rangle - \langle p(t) \rangle}{dt}  = - \frac{\langle p(t) \rangle}{\tau}  + F - \frac{F dt}{\tau}
 \\
-&\frac{p(t+dt) - p(t)}{dt} = F(t) - \frac{p(t)}{\tau}
+&\lim_{dt \rightarrow 0}\frac{\langle p(t+dt) \rangle - \langle p(t) \rangle}{dt}  = \lim_{dt \rightarrow 0}(- \frac{\langle p(t) \rangle}{\tau}  + F - \frac{F dt}{\tau})
 \\
-&\therefore \frac{dp(t)}{dt} = -\frac{p(t)}{\tau}+F(t)
+&\frac{d\langle p(t) \rangle}{dt} = - \frac{\langle p(t) \rangle}{\tau}  + F
+\\
+\\
+&\langle p(t) \rangle\text{을 } p(t)\text{물리적으로는 같다는 것을 의미한다고 가정하자.}
+\\
+&\text{particle 1개에 대한 분석을 할 수 없으므로.}
+\\
+&\frac{p(t)}{dt} = - \frac{p(t)}{\tau}  + F
+\\
+\\
+&\text{Electric field가 없을 때는 다음과 같다.}
+\\
+&p(t) = p_{\text{initial}} e^{-t/\tau}
+\\
+\\
+&\text{해석할 때 모든 것을 '평균적인'의 의미를 반드시 부여하자.}
 \end{align}
 $$
-만약 $p(t)$를 $m \dot x$로 생각한다면 이를 harmonic oscillator의 관점으로 생각할 수 있다.
+
+
+1) 만약 $p(t)$를 $m \dot x$로 생각한다면 이를 harmonic oscillator의 관점으로 생각할 수 있다.
 
 따라서, $-\frac{p(t)}{\tau}$는 Damping term임을 알 수 있다.
